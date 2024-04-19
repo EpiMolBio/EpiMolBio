@@ -1,0 +1,87 @@
+/**
+
+    Authors: Roberto Reinosa Fernández, África Holguín Fernández, Paloma Troyano Hernáez
+
+    This software is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+
+    This license enables reusers to copy and distribute the material in any medium or format in unadapted form only, 
+    for noncommercial purposes only, and only so long as attribution is given to the creator. 
+     
+    CC BY-NC-ND includes the following elements:
+    
+        BY: credit must be given to the creator.
+        NC: Only noncommercial uses of the work are permitted.
+        ND: No derivatives or adaptations of the work are permitted.
+
+*/
+
+package com.mycompany.epimolbio;
+
+import static com.mycompany.epimolbio.Interfaz.Calculos_Finalizados;
+import static com.mycompany.epimolbio.Interfaz.Error;
+import static com.mycompany.epimolbio.Interfaz.btn_presionado;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ *
+ * @author Roberto Reinosa Fernández
+ */
+
+public class Hilo_Mutaciones_Posicion implements Runnable{
+    
+    public static Thread t_mutaciones_posicion;
+    
+    public String archivoCarga;
+    public String archivoGuardado;
+    public String mutaciones;
+    public boolean modo;
+    
+    //Gestiona el hilo de Mutaciones por Posición.
+    
+    public Hilo_Mutaciones_Posicion(String archivoCarga, String archivoGuardado, String mutaciones, boolean modo){
+        
+        this.archivoCarga = archivoCarga;
+        this.archivoGuardado = archivoGuardado;
+        this.mutaciones = mutaciones;
+        this.modo = modo;
+        
+        t_mutaciones_posicion = new Thread(this, "Hilo_Mutaciones_Posicion");
+        t_mutaciones_posicion.start();
+        
+    }
+    
+    @Override
+    public void run(){
+        
+        try {
+        
+            btn_presionado = true;
+            
+            Botones_Calcular.llamadaCalcular();
+            
+            Mutaciones_Posicion.cargarMutacionesPosicion(this.archivoCarga, this.archivoGuardado, this.mutaciones, this.modo);
+            
+            Botones_Calcular_Finalizada.llamadaCalcularFinalizada();
+            
+            btn_presionado = false;
+            
+            Calculos_Finalizados.setLocationRelativeTo(null);
+            Calculos_Finalizados.setVisible(true);
+            
+        }catch (Exception ex) {
+            
+            Error.setLocationRelativeTo(null);
+            Error.setVisible(true);
+            
+            Logger.getLogger(Hilo_Mutaciones_Posicion.class.getName()).log(Level.SEVERE, null, ex);
+            
+            btn_presionado = false;
+            
+            Botones_Calcular_Finalizada.llamadaCalcularFinalizada();
+            
+        }
+        
+    }
+    
+}

@@ -1,0 +1,93 @@
+/**
+
+    Authors: Roberto Reinosa Fernández, África Holguín Fernández, Paloma Troyano Hernáez
+
+    This software is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+
+    This license enables reusers to copy and distribute the material in any medium or format in unadapted form only, 
+    for noncommercial purposes only, and only so long as attribution is given to the creator. 
+     
+    CC BY-NC-ND includes the following elements:
+    
+        BY: credit must be given to the creator.
+        NC: Only noncommercial uses of the work are permitted.
+        ND: No derivatives or adaptations of the work are permitted.
+
+*/
+
+package com.mycompany.epimolbio;
+
+import static com.mycompany.epimolbio.Interfaz.Calculos_Finalizados;
+import static com.mycompany.epimolbio.Interfaz.Error;
+import static com.mycompany.epimolbio.Interfaz.btn_presionado;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ *
+ * @author Roberto Reinosa Fernández
+ */
+
+public class Hilo_Tabla_Mutaciones_Subcarpetas implements Runnable{
+    
+    public static Thread t_tabla_mutaciones_subcarpetas;
+    
+    public String archivoCarga;
+    public String archivoGuardado;
+    public String wt;
+    public double valorMinimo;
+    public boolean orden;
+    public int seleccion;
+    public String mutacionSeleccionada;
+    public int tipoTabla;
+    
+    //Gestiona el hilo de la opción de subcarpetas de la Tabla de Mutaciones.
+    
+    public Hilo_Tabla_Mutaciones_Subcarpetas(String archivoCarga, String archivoGuardado, String wt, double valorMinimo, boolean orden, int seleccion, String mutacionSeleccionada, int tipoTabla){
+        
+        this.archivoCarga = archivoCarga;
+        this.archivoGuardado = archivoGuardado;
+        this.wt = wt;
+        this.valorMinimo = valorMinimo;
+        this.orden = orden;
+        this.seleccion = seleccion;
+        this.mutacionSeleccionada = mutacionSeleccionada;
+        this.tipoTabla = tipoTabla;
+        
+        t_tabla_mutaciones_subcarpetas = new Thread(this, "Hilo_Tabla_Mutaciones_Subcarpetas");
+        t_tabla_mutaciones_subcarpetas.start();
+        
+    }
+    
+    @Override
+    public void run(){
+       
+        try {
+            
+            btn_presionado = true;
+            
+            Botones_Calcular.llamadaCalcular();
+            
+            Posiciones_Mutadas_Tabla_Mutaciones.lectorSubcarpetas(this.archivoCarga, this.archivoGuardado, this.wt, this.valorMinimo, this.orden, this.seleccion, this.mutacionSeleccionada, this.tipoTabla);
+        
+            Botones_Calcular_Finalizada.llamadaCalcularFinalizada();
+            
+            btn_presionado = false;
+            
+            Calculos_Finalizados.setLocationRelativeTo(null);
+            Calculos_Finalizados.setVisible(true);
+            
+        } catch (Exception ex) {
+        
+            Error.setLocationRelativeTo(null);
+            Error.setVisible(true);
+            
+            Logger.getLogger(Hilo_Tabla_Mutaciones_Subcarpetas.class.getName()).log(Level.SEVERE, null, ex);
+            
+            btn_presionado = false;
+            
+            Botones_Calcular_Finalizada.llamadaCalcularFinalizada();
+        
+        }
+    }
+}
