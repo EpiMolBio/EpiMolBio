@@ -37,6 +37,7 @@ import java.util.logging.Logger;
 public class Contar_Secuencias_Tabla {
     
     //Cuenta las secuencias que hay en uno o varios archivos .fasta y genera una tabla.
+    //Counts the sequences in one or more .fasta files and generates a table.
     
     public static void cargarContarSecuenciasTabla(String archivoEntrada, String archivoSalida, int seleccion){
         
@@ -70,6 +71,7 @@ public class Contar_Secuencias_Tabla {
     }
     
     //Genera una tabla en .csv donde se muestra la cantidad de secuencias que hay en uno o varios archivos .fasta además del total de estas.
+    //Generates a .csv table showing the number of sequences in one or more .fasta files, along with the total count.
     
     public static void tablaValoresSeparado(String archivoEntrada, String archivoSalida){
         
@@ -180,6 +182,9 @@ public class Contar_Secuencias_Tabla {
     
     /*Función en deshuso, donde se genera un archivo .csv con la cantidad de secuencias que hay en varias carpetas. 
     En cada celda aparece la cantidad de secuencias de los archivos relacionados.*/
+    
+    /*Deprecated function, which generates a .csv file with the number of sequences in multiple folders. 
+    Each cell displays the number of sequences from the related files.*/
     
     public static void tablaValoresCelda(String archivoEntrada, String archivoSalida){
             
