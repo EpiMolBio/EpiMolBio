@@ -38,6 +38,7 @@ public class Hilo_Conservacion_Codones implements Runnable{
     public int criba;
     
     //Gestiona el hilo de Conservación Codones.
+    //Manages the Codon Conservation thread.
     
     public Hilo_Conservacion_Codones(String entrada, String salida, String referencia, int criba){
         
