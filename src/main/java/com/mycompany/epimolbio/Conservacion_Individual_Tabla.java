@@ -38,6 +38,7 @@ import java.util.logging.Logger;
 public class Conservacion_Individual_Tabla {
     
     //Genera la salida en formato tabla de conservación individual, valiendose de la clase Calculos_Frecuencias_Posicion.
+    //Generates the output in individual conservation table format using the Calculos_Frecuencias_Posicion class.
     
     public static void cargarConservacionIndividualTabla(String entrada, String salida, String referencia){
         
