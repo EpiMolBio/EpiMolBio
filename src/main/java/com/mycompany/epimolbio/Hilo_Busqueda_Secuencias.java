@@ -38,6 +38,7 @@ public class Hilo_Busqueda_Secuencias implements Runnable{
     public int formato;
     
     //Gestiona el hilo de Busqueda de Secuencias.
+    //Manages the Sequence Search thread.
     
     public Hilo_Busqueda_Secuencias(String entrada, String salida, String mutaciones, int formato){
         
