@@ -37,6 +37,7 @@ public class Hilo_Eliminar_Inserciones implements Runnable {
     public String secuenciaComparadora;
     
     //Gestiona el hilo de Eliminar Inserciones.
+    //Manages the Remove Insertions thread.
     
     public Hilo_Eliminar_Inserciones(String entrada, String salida, String secuenciaComparadora){
         
