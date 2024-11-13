@@ -40,6 +40,7 @@ import java.util.logging.Logger;
 public class Contar_Secuencias_Mutadas {
     
     //Calcula la cantidad de secuencias mutadas que hay en uno o varios archivos .fasta
+    //Calculates the number of mutated sequences in one or more .fasta files.
     
     public static void cargarContarSecuenciasMutadas(String entrada, String salida, String referencia, int ntAa){
      
