@@ -36,6 +36,7 @@ import java.util.logging.Logger;
 public class Filtrado_Encabezado_Unico {
     
     //Filtra de uno o varios archivos .fasta las secuencias por su encabezado. Previamente hay que marcar el item por el cual se debe filtrar.
+    //Filters sequences from one or more .fasta files based on their header. The item by which to filter must be selected beforehand.
     
     public static void cargarFiltradoEncabezadoUnico(String entrada, String salida, String separador, int posicionMarcado, int eliminarGaps, int traducir){
         
