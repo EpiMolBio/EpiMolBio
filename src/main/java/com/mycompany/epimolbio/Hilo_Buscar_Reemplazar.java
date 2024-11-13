@@ -39,6 +39,7 @@ public class Hilo_Buscar_Reemplazar implements Runnable{
     public int modificacionArchivoEntero;
     
     //Gestiona el hilo de Buscar y Reemplazar.
+    //Manages the Find and Replace thread.
     
     public Hilo_Buscar_Reemplazar(String entrada, String salida, String buscar, String reemplazar, int modificacionArchivoEntero){
         
