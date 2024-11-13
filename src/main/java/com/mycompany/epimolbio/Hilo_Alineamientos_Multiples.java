@@ -38,6 +38,7 @@ public class Hilo_Alineamientos_Multiples implements Runnable {
     public int cantidadSecuencias;
     
     //Gestiona el hilo de Alineamientos Múltiples.
+    //Manages the Multiple Alignments thread.
     
     public Hilo_Alineamientos_Multiples(String entrada, String salida, String referencia, int cantidadSecuencias){
         
