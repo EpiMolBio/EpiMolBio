@@ -37,6 +37,7 @@ public class Hilo_Conservacion_Individual_Tabla implements Runnable{
     public String referencia;
     
     //Gestiona el hilo de Conservación Individual Tabla.
+    //Manages the Individual Conservation Table thread.
     
     public Hilo_Conservacion_Individual_Tabla(String entrada, String salida, String referencia){
         
