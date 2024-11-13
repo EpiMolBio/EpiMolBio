@@ -41,6 +41,7 @@ import java.util.logging.Logger;
 public class Busqueda_Secuencias {
     
     //Busca secuencias con una serie de mutaciones concretas y las guarda en un archivo .fasta o .csv según se elija.
+    //Search for sequences with specific mutations and save them in a .fasta or .csv file as chosen.
     
     public static void cargarBusquedaSecuencias(String entrada, String salida, String mutaciones, int formato){
         
@@ -239,6 +240,7 @@ public class Busqueda_Secuencias {
     }
     
     //Elimina los archivos generados que no contienen secuencias.
+    //Delete the generated files that do not contain sequences.
     
     public static void eliminarArchivosVacios(String carpetaGuardado , String ficheros[]){
         
@@ -297,6 +299,7 @@ public class Busqueda_Secuencias {
     }
     
     //Da permisos a los archivos vacios para poder eliminarlos.
+    //Grant permissions to the empty files so they can be deleted.
     
     public static void darPermisos(File file) throws IOException{
     
