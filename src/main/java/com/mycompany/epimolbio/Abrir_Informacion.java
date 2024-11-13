@@ -33,6 +33,7 @@ import static com.mycompany.epimolbio.Interfaz.Error;
 public class Abrir_Informacion {
 
     //Abre los pdf de los botones de información.
+    //Open the PDFs from the information buttons.
     
     public static void abrirPdf(String nombrePDF, String nombreTemporal) {
         
