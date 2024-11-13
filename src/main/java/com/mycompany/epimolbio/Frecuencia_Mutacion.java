@@ -40,6 +40,7 @@ import java.util.logging.Logger;
 public class Frecuencia_Mutacion {
     
     //Hace el calculo de la frecuencia de mutación de uno o varios archivos .fasta y genera una salida en html.
+    //Calculates the mutation frequency for one or more .fasta files and generates an output in html.
     
     public static void cargarFrecuenciaMutacion(String archivoCarga, String archivoGuardado, String consenso, int alinear, int tipoSecuencia){
         
