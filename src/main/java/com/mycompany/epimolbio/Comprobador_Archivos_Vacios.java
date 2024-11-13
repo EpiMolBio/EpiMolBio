@@ -33,6 +33,7 @@ import java.util.logging.Logger;
 public class Comprobador_Archivos_Vacios {
     
     //Comprueba si hay archivos vacíos y devuelve cuales son.
+    //Checks for empty files and returns which ones they are.
     
     public static String[] cargarComprobarArchivosVacios(String archivo, String ficheros[]){
         
