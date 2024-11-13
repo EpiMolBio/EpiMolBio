@@ -34,6 +34,7 @@ import java.util.logging.Logger;
 public class Conservacion_Codones {
     
     //Genera las salida de conservación codones valiendose de la clase Calculos_Frecuencias_Posicion_Codones.
+    //Generates the codon conservation output using the Calculos_Frecuencias_Posicion_Codones class.
     
     public static void cargarConservacionCodones(String entrada, String salida, String referencia, int criba){
                    
