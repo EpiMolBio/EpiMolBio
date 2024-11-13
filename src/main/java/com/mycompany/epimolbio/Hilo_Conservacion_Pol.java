@@ -38,6 +38,7 @@ public class Hilo_Conservacion_Pol implements Runnable{
     public int proteina;
     
     //Gestiona el hilo de Conservación Pol.
+    //Manages the Pol Conservation thread.
     
     public Hilo_Conservacion_Pol(String entrada, String salida, int virus, int proteina){
         
