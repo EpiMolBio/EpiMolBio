@@ -38,6 +38,7 @@ public class Hilo_Cortar_Secuencias implements Runnable{
     public int rangoSuperior;
     
     //Gestiona el hilo de Cortar Secuencias. No disponible desde el interfaz.
+    //Manages the Sequence Cutting thread. Not available through the interface.
     
     public Hilo_Cortar_Secuencias(String carpetaRuta, String carpetaSalida, int rangoInferior, int rangoSuperior){
         
