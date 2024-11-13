@@ -39,6 +39,7 @@ public class Hilo_Filtrado_Secuencias_Parciales implements Runnable {
     public int seleccionTipo;
     
     //Gestiona el hilo de Filtrado de Secuencias Parciales.
+    //Manages the Partial Sequence Filtering thread.
     
     public Hilo_Filtrado_Secuencias_Parciales(String archivo, String archivoGuardado, double porcentaje, int seleccionTipo){
         
