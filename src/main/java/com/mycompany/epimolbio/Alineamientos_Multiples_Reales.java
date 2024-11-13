@@ -58,6 +58,11 @@ public class Alineamientos_Multiples_Reales {
     Selecciona la versión de MUSCLE apropiada para el sistema operativo en el que se está trabajando.
     Esta versión solo realiza alineamientos multiples conservando las inserciones.*/
     
+    /*Create a series of temporary folders and paste MUSCLE in the EpiMolBio location to perform alignments.
+    Select the appropriate version of MUSCLE for the operating system being used.
+    This version only performs multiple alignments while preserving insertions.*/
+
+    
     public void cargadorAlineamientosMultiplesReales(String entrada, String salida) throws IOException{
         
         try{
@@ -202,6 +207,7 @@ public class Alineamientos_Multiples_Reales {
     }
     
     //Lanza el comando de MUSCLE.
+    //Run the MUSCLE command.
     
     public static void comando(String[] comando) throws IOException{
         
@@ -301,6 +307,7 @@ public class Alineamientos_Multiples_Reales {
     }
     
     //Copia y pega el programa MUSCLE en la carpeta donde se encuentra EpiMolBio.
+    //Copy and paste the MUSCLE program into the folder where EpiMolBio is located.
     
     public static void copiarPegarArchivo(InputStream src, File dst){
 
@@ -349,6 +356,7 @@ public class Alineamientos_Multiples_Reales {
     }
     
     //Elimina saltos de linea en la entrada y sustituye caracteres invalidos para MUSCLE por otros validos.
+    //Remove line breaks from the input and replace invalid characters for MUSCLE with valid ones.
     
     public static void elimiarSaltos(String entrada, String carpeta) throws IOException{
                
@@ -413,6 +421,7 @@ public class Alineamientos_Multiples_Reales {
     }
      
     //Sustituye carecteres cambiados anteriormente para ser leidos pos MUSCLE por los originales.
+    //Replace characters previously changed for MUSCLE to be read with the original ones.
     
     public static void sustituir(String carpeta, String salida){
         
@@ -468,6 +477,7 @@ public class Alineamientos_Multiples_Reales {
     }
     
     //Elimina las carpetas y archivos temporales.
+    //Delete the temporary folders and files.
     
     public static void eliminarArchivosTemporales(){
         
