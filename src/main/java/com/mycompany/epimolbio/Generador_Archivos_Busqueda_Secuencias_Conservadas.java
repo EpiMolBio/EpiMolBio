@@ -35,6 +35,7 @@ import java.util.logging.Logger;
 public class Generador_Archivos_Busqueda_Secuencias_Conservadas {
     
     //Crea el archivo de Busqueda de Secuencias Conservadas, para esto se sirve de la clase Calculos_Frecuencias_Posicion.
+    //Creates the Conserved Sequences Search file, using the Calculos_Frecuencias_Posicion class.
     
     public static void cargarGeneradorArchivosBusquedaSecuenciasConservadas(String rutaCarga, String rutaGuardado, double porcentajeHomologia,
                     int valorInferior, int valorSuperior, int rangoLongitudInferior, int rangoLongitudSuperior){
