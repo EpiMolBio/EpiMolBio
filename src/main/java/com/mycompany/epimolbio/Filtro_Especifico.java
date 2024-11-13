@@ -36,6 +36,7 @@ import java.util.logging.Logger;
 public class Filtro_Especifico {
     
     //Genera archivos .fasta a partir de otros, dejando solo aquellas secuencias que tengan en su encabezado una seríe de caracteres concretos.
+    //Generates .fasta files from other files, keeping only those sequences that have a specific series of characters in their header.
     
     public static void cargarFiltroEspecifico(String archivo_, String archivoSalida, String busqueda){
 
