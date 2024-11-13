@@ -34,6 +34,7 @@ import java.util.logging.Logger;
 public class Busqueda_Secuencias_Conservadas {
     
     //Busca regiones conservadas de una longitud a elegir en un pool de secuencias de mayor tamaño.
+    //Search for conserved regions of a chosen length within a larger pool of sequences.
     
     public static String cargarBusquedaSecuenciasConservadas(String archivo, int paso, String cadena, double porcentaje,
              int valorInferior, int valorSuperior){
@@ -130,6 +131,5 @@ public class Busqueda_Secuencias_Conservadas {
             return "";
             
         }
-    }
-                        		
+    }                   		
 }
