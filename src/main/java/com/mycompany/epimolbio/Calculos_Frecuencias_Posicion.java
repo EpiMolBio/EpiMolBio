@@ -36,6 +36,7 @@ import java.util.logging.Logger;
 public class Calculos_Frecuencias_Posicion {
     
     //Calcula la frecuencia de los aminoácidos o nucleótidos en una posición dada en el pool de secuencias introducidas.
+    //Calculates the frequency of amino acids or nucleotides at a given position in the pool of input sequences.
     
     public static String cargarCalculosFrecuenciasPosicion(String archivo, int posicion, char evaluador, String polimorfismos, int seleccion, 
         int color, int proteina, String secuenciaProblemaSimilitud, int seleccionAdicional, int limiteInfSecuenciaProblemaSimilitud, int limiteSupSecuenciaProblemaSimilitud, 
@@ -785,6 +786,7 @@ public class Calculos_Frecuencias_Posicion {
     }
 	
     //Devuelve el resultado para construir salidas con los valores relacionados con los residuos por posición.
+    //Returns the result to construct outputs with values related to residues by position.
     
     public static String calculoFrecuenciaTabla(double totalAciertos, double totalSecuencias, char wt, char residuo, int valor_100){
 		
@@ -894,6 +896,7 @@ public class Calculos_Frecuencias_Posicion {
     }
 	
     //Hace los cálculos de la funcionalidad de Similitud y de Búsqueda de secuencias conservadas.
+    //Performs the calculations for the functionality of Similarity and Search for conserved sequences.
     
     public static boolean similitud(String temp, String secuenciaProblema, int limiteInf, int limiteSup) {
                 
