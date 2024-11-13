@@ -30,6 +30,7 @@ import java.util.logging.Logger;
 public class Dot_Plot {
        
     //Calcula los puntos para hacer un dot plot entre dos secuencias introducidas. Devuelve una matriz con la posición de dichos puntos.
+    //Calculates the points for creating a dot plot between two input sequences. Returns a matrix with the positions of these points.
     
     public static int[][] cargarDotPlot(String secuencia1, String secuencia2){
            
