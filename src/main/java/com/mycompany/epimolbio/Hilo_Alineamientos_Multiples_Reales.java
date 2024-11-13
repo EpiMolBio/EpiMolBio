@@ -35,6 +35,7 @@ public class Hilo_Alineamientos_Multiples_Reales implements Runnable {
     public String salida;
     
     //Gestiona el hilo de Alineamientos Múltiples Reales, es decir, de la opción que mantiene las inserciones.
+    //Manages the Real Multiple Alignments thread, i.e., the option that preserves insertions.
     
     public Hilo_Alineamientos_Multiples_Reales(String entrada, String salida){
             
