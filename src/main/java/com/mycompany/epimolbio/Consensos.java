@@ -47,6 +47,7 @@ public class Consensos {
     public static int contadorConsensosSalidaTabla[] = new int[10000];
     
     //Genera consensos y consensos de consensos.
+    //Generates consensus sequences and consensus of consensus sequences.
     
     public static void cargarConsensos(String rutaCarga, String rutaGuardado, int ronda, String longitud_) {
         
