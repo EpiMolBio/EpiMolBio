@@ -36,6 +36,7 @@ public class Hilo_Eliminar_Stops implements Runnable{
     public String salida;
     
     //Gestiona el hilo de Eliminar Stops, no disponible desde el interfaz.
+    //Manages the Remove Stops thread, not available through the interface.
     
     public Hilo_Eliminar_Stops(String entrada, String salida){
         
