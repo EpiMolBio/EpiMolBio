@@ -62,6 +62,9 @@ public class Alineamientos_Multiples {
     /*Crea una serie de carpetas temporales y pega MUSCLE en la ubicación de EpiMolBio para realizar alineamientos.
     Selecciona la versión de Muscle apropiada para el sistema operativo en el que se está trabajando.*/
     
+    /* Create a series of temporary folders and paste MUSCLE in the EpiMolBio location to perform alignments.
+    Select the appropriate version of MUSCLE for the operating system being used.*/
+    
     public void cargadorAlineamientosMultiples(String entrada, String salida, String referencia, int cantidadSecuencias){
         
         try{
@@ -215,6 +218,7 @@ public class Alineamientos_Multiples {
     }
     
     //Lanza el comando de MUSCLE.
+    //Execute the MUSCLE command.
     
     public static void comando(String[] comando){
         
@@ -273,6 +277,7 @@ public class Alineamientos_Multiples {
     }
     
     //Copia y pega el programa MUSCLE en la carpeta donde se encuentra EpiMolBio.
+    //Copy and paste the MUSCLE program into the folder where EpiMolBio is located.
     
     public void copiarPegarArchivo(InputStream src, File dst) throws IOException{
 
@@ -423,6 +428,7 @@ public class Alineamientos_Multiples {
     }
     
     //Divide la entrada en archivos más pequeños para ser alineados según se seleccione.
+    //Split the input into smaller files to be aligned as selected.
     
     public static void dividirArchivos(String archivo, String salida, int tamanoDivision, String referencia){
         
@@ -515,6 +521,7 @@ public class Alineamientos_Multiples {
     }
     
     //Elimina las inserciones respecto a la secuencia de referencia.
+    //Remove insertions relative to the reference sequence.
     
     public static void alineadorReferencia(final String archivo, String ficheros[], String salida, String salidaTotal) throws IOException{
         
@@ -630,6 +637,7 @@ public class Alineamientos_Multiples {
     }
     
     //Elimina las carpetas y archivos temporales.
+    //Delete the temporary folders and files.
     
     public static void eliminarArchivosTemporales(){
         
