@@ -122,6 +122,9 @@ public class Ayuda_Programar_Funciones {
     /*Genera una cadena de texto que sirve como ayuda para usar la función de programar funciones.
     Está información se muestra pulsando el botón de programar funciones.*/
     
+    /*Generate a text string that serves as help for using the function programming feature.
+    This information is displayed by pressing the function programming button.*/
+    
     public static String cargarAyudaProgramarFunciones(String funcion){
         
         String retorno = "";
@@ -129,14 +132,18 @@ public class Ayuda_Programar_Funciones {
         switch (funcion) {
             
             //Se muestra una información generica en caso de no seleccionar ninguna opción válida.
+            //Generic information is displayed if no valid option is selected.
             
             case "":
                 
                 retorno = "ENTRADA (CARPETA)/INPUT (FOLDER);SALIDA (CARPETA)/OUTPUT (FOLDER);;;;;;";
                 break;
                 
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             el rastreador específico del SARS-CoV-2.*/
+                
+            /*Displays the information needed for the function programming feature to use
+            the specific SARS-CoV-2 tracker.*/
                 
             case "RASTREADOR ESPECIFICO_A":
                 
@@ -177,8 +184,11 @@ public class Ayuda_Programar_Funciones {
                     
             }
              
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             el rastreador específico general.*/
+            
+            /*Displays the information needed for the function programming feature to use
+            the general-specific tracker.*/
             
             case "RASTREADOR ESPECIFICO_B":
                
@@ -209,8 +219,11 @@ public class Ayuda_Programar_Funciones {
                     
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             la Tabla Mutaciones.*/
+            
+            /*Displays the information needed for the function programming feature to use
+            the Mutations Table.*/
             
             case "TABLA MUTACIONES":
             
@@ -243,8 +256,11 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones en cso de usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones en cso de usar 
             la opción de subcarpetas de Tabla de Mutaciones.*/
+            
+            /*Displays the information needed for the function programming feature in case
+            the Mutations Table subfolder option is used.*/
             
             case "TABLA MUTACIONES SC":
                 
@@ -277,24 +293,31 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Fusionar Secuencias.*/
+            
+            //Displays the information needed for the function programming feature to use Merge Sequences.
             
             case "FUSIONAR SECUENCIAS":
                 
                 retorno = "ENTRADA (CARPETA)/INPUT (FOLDER);SALIDA (CARPETA)/OUTPUT (FOLDER);FUSIONAR SECUENCIAS";
                 break;
                 
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Fusionar Archivos.*/
+                
+            //Displays the information needed for the function programming feature to use Merge Files.
                 
             case "FUSIONAR ARCHIVOS":
                 
                 retorno = "ENTRADA (CARPETA)/INPUT (FOLDER);SALIDA (ARCHIVO FASTA)/OUTPUT (FASTA FILE);FUSIONAR ARCHIVOS";
                 break;
                 
-            /*Muestra la información necesaría para la funcionalidad de programar funciones en caso de usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones en caso de usar 
             Filtro Múltiple (pertenece a Filtrado por Encabezado), no accesible desde el interfaz.*/
+                
+            /*Displays the information needed for the function programming feature in case of using
+            Multiple Filter (part of Header Filtering), not accessible from the interface.*/
                 
             case "FILTRO":
             
@@ -383,8 +406,11 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Filtrado por Encabezado.*/
+            
+            /*Displays the information needed for the function programming feature to use
+            Header Filtering.*/
             
             case "FILTRO UNICO":
                 
@@ -474,8 +500,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Traducción.*/
+            
+            //Displays the information needed for the function programming feature to use Translation.
             
             case "TRADUCCTOR":
                 
@@ -513,8 +541,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Buscar y Reemplazar.*/
+            
+            //Displays the information needed for the function programming feature to use Find and Replace.
             
             case "BUSCAR/REEMPLAZAR":
                 
@@ -540,8 +570,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Filtro Específico.*/
+            
+            //Displays the information needed for the function programming feature to use Specific Filter.
             
             case "FILTRO ESPECIFICO":
             
@@ -553,8 +585,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Secuencias Únicas.*/
+            
+            //Displays the information needed for the function programming feature to use Unique Sequences.
             
             case "SECUENCIAS UNICAS":
                 
@@ -565,8 +599,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Búsqueda de Secuencias.*/
+            
+            //Displays the information needed for the function programming feature to use Sequence Search.
             
             case "BUSQUEDA SECUENCIAS":
                 
@@ -593,8 +629,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Filtrado de Secuencias Parciales.*/
+            
+            //Displays the information needed for the function programming feature to use Partial Sequence Filtering.
             
             case "FILTRADO SECUENCIAS PARCIALES":
                 
@@ -621,8 +659,10 @@ public class Ayuda_Programar_Funciones {
                     
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Contar Secuencias Mutadas.*/
+            
+            //Displays the information needed for the function programming feature to use Count Mutated Sequences.
             
             case "CONTAR SECUENCIAS MUTADAS":
                 
@@ -648,16 +688,20 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             la tabla de Contar Secuencias.*/
+            
+            //Displays the information needed to program functions for using the Sequence Count table.
             
             case "CONTAR SECUENCIAS TABLA":
                 
                 retorno = "ENTRADA (CARPETA)/INPUT (FOLDER);SALIDA (ARCHIVO CSV)/OUTPUT (CSV FILE);CONTAR SECUENCIAS TABLA";
                 break;
                 
-            /*Muestra la información necesaría para la funcionalidad de programar funciones en caso de usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones en caso de usar 
             Alineamientos Multiples, no conservando las inserciones.*/
+                
+            //Displays the information needed to program functions for using Multiple Alignments without preserving insertions.
                 
             case "ALINEAMIENTOS MULTIPLES":
                 
@@ -672,16 +716,20 @@ public class Ayuda_Programar_Funciones {
                 
             }
                 
-            /*Muestra la información necesaría para la funcionalidad de programar funciones en caso de usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones en caso de usar 
             Alineamientos Multiples conservando las inserciones.*/
+            
+            //Displays the information needed to program functions for using Multiple Alignments while preserving insertions.
             
             case "ALINEAMIENTOS MULTIPLES A":
                 
                 retorno = "ENTRADA (CARPETA)/INPUT (FOLDER);SALIDA (CARPETA)/OUTPUT (FOLDER);ALINEAMIENTOS MULTIPLES A";
                 break;
                 
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Eliminar Inserciones.*/
+                
+            //Displays the information needed to program functions for using the Delete Insertions feature.
                 
             case "ALINEADOR":
                 
@@ -689,8 +737,10 @@ public class Ayuda_Programar_Funciones {
                 retorno = "ENTRADA (CARPETA)/INPUT (FOLDER);SALIDA (CARPETA)/OUTPUT (FOLDER);" + parametros_2 +";ALINEADOR";
                 break;
                 
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Rastreador Similitud.*/
+                
+            //Displays the information needed to program functions for using the Similarity Tracker.
                 
             case "RASTREADOR SIMILITUD":
                 
@@ -761,8 +811,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones en caso de usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones en caso de usar 
             la funcionalidad de Similitud de la sección de Homología.*/
+            
+            //Displays the information needed to program functions for using the Similarity feature in the Homology section.
             
             case "SIMILITUD":
             {
@@ -775,8 +827,10 @@ public class Ayuda_Programar_Funciones {
                     
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Similitud Parcial.*/
+            
+            //Displays the information needed to program functions for using Partial Similarity.
             
             case "SIMILITUD PARCIAL":
                 
@@ -804,8 +858,10 @@ public class Ayuda_Programar_Funciones {
                     
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Búsqueda de Secuencias Conservadas.*/
+            
+            //Displays the information needed to program functions for using the Search for Conserved Sequences.
             
             case "DISENO SECUENCIAS CONSERVADAS":
                 
@@ -845,8 +901,10 @@ public class Ayuda_Programar_Funciones {
                                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Frecuencia de Mutación.*/
+            
+            //Displays the information needed to program functions for using Mutation Frequency.
             
             case "FRECUENCIA MUTACION":
                 
@@ -883,8 +941,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             el Coeficiente de variabilidad de Wu-Kabat.*/
+            
+            //Displays the information needed to program functions for using the Wu-Kabat Variability Coefficient.
             
             case "INDICE WU-KABAT":
             {
@@ -893,8 +953,11 @@ public class Ayuda_Programar_Funciones {
                 break;
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             las funcionalidades de Consensos, tanto Ronda 1 como Rondas Sucesivas.*/
+            
+            /*Displays the information needed to program functions for using the Consensus features,
+            including both Round 1 and Successive Rounds.*/
             
             case "RONDAS":
                 
@@ -918,8 +981,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Conservación Individual.*/
+            
+            //Displays the information needed to program functions for using Individual Conservation.
             
             case "CONSERVACION INDIVIDUAL":
                 
@@ -953,8 +1018,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Conservación Codones.*/
+            
+            //Displays the information needed to program functions for using Codon Conservation.
             
             case "CONSERVACION CODONES":
                 
@@ -981,8 +1048,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Posiciones Mutadas.*/
+            
+            //Displays the information needed to program functions for using Mutated Positions.
             
             case "LISTA MUTACIONES":
                 
@@ -1009,8 +1078,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
                     
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Marcadores.*/
+            
+            //Displays the information needed to program functions for using Markers.
             
             case "MARCADORES":
                 
@@ -1036,8 +1107,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Mutaciones Múltiples.*/
+            
+            //Displays the information needed to program functions for using Multiple Mutations.
             
             case "MUTACIONES MULTIPLES":
                 
@@ -1058,8 +1131,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Mutaciones por Posición.*/
+            
+            //Displays the information needed to program functions for using Mutations by Position.
             
             case "MUTACIONES POSICION":
                 
@@ -1080,8 +1155,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para 
             Polimorfismos Codones.*/
+            
+            //Displays the information needed to program functions for Codon Polymorphisms.
             
             case "POLIMORFISMOS CODONES LISTA":
                 
@@ -1107,8 +1184,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Conservación Pol.*/
+            
+            //Displays the information needed to program functions for using Pol Conservation.
             
             case "CONSERVACION POL":
                 
@@ -1153,8 +1232,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             Otras Mutaciones Pol.*/
+            
+            //Displays the information needed to program functions for using Other Pol Mutations.
             
             case "OTRAS MUTACIONES POL":
             
@@ -1257,8 +1338,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             MDR Codones dentro de Virus/VIH.*/
+            
+            //Displays the information needed to program functions for using DRM Codons within Virus/HIV.
             
             case "MDR TRIPLETES":
                 
@@ -1311,8 +1394,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             MDR Adquiridas dentro de Virus/VIH.*/
+            
+            //Displays the information needed to program functions for using Acquired DRM within Virus/HIV.
             
             case "MDR ADQUIRIDAS":
                 
@@ -1394,8 +1479,10 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones para usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones para usar 
             SDRM dentro de Virus/VIH.*/
+            
+            //Displays the information needed to program functions for using SDRM within Virus/HIV.
             
             case "MDR TRANSMITIDAS":
             
@@ -1464,16 +1551,21 @@ public class Ayuda_Programar_Funciones {
                 
             }
             
-            /*Muestra la información necesaría para la funcionalidad de programar funciones en caso de usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones en caso de usar 
             Cortar Secuencias, funcionalidad no disponible desde el interfaz.*/
+            
+            /*Displays the information needed to program functions for using Cut Sequences,
+            a feature not available from the interface.*/
             
             case "CORTAR SECUENCIAS":
                 
                 retorno = "ENTRADA (CARPETA)/INPUT (FOLDER);SALIDA (CARPETA)/OUTPUT (FOLDER);" + "RANGO INFERIOR" + ";" + "RANGO SUPERIOR" + ";CORTAR SECUENCIAS";
                 break;
                 
-            /*Muestra la información necesaría para la funcionalidad de programar funciones en caso de usar 
+            /*Muestra la información necesaria para la funcionalidad de programar funciones en caso de usar 
             Eliminar Stops, funcionalidad no disponible desde el interfaz.*/
+                
+            //Displays the information needed to program functions for using Remove Stops, a feature not available from the interface.
                 
             case "ELIMINAR STOPS":
                 
