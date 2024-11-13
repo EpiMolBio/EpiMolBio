@@ -35,6 +35,7 @@ import java.util.logging.Logger;
 public class Conservacion_Individual_Lista {
     
     //Genera la salida en formato lista de conservación individual, valiendose de la clase Calculos_Frecuencias_Posicion.
+    //Generates the output in individual conservation list format using the Calculos_Frecuencias_Posicion class.
     
     public static void cargarConservacionLista(String entrada, String salida, String referencia){
         
