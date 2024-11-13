@@ -37,6 +37,7 @@ import java.util.logging.Logger;
 public class Conservacion_Pol {
     
     //Genera la salida de Conservación Pol, valiendose de la clase Calculos_Frecuencias_Posicion.
+    //Generates the Pol Conservation output using the Calculos_Frecuencias_Posicion class.
     
     public static void cargarConservacionPol(String entrada, String salida, int virus, int proteina){
         
