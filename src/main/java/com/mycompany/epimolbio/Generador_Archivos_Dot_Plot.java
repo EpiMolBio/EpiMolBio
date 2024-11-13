@@ -33,6 +33,7 @@ import java.util.logging.Logger;
 public class Generador_Archivos_Dot_Plot {
     
     //Crea un gráfico de puntos en html sirviendose de la clase Dot_Plot.
+    //Creates a dot plot graph in HTML using the Dot_Plot class.
     
     public static void cargarGeneradorArchivosDotPlot(String salida, String secuenciaA, String secuenciaB){
         
