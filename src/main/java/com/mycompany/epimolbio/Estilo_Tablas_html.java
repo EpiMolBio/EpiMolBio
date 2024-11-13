@@ -25,6 +25,7 @@ package com.mycompany.epimolbio;
 public class Estilo_Tablas_html {
     
     //Devuelve el estilo de las tablas de las salidas .html.
+    //Returns the style of the tables in the .html outputs.
     
     public static String cssTabla(){
         
