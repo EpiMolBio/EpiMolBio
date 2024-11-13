@@ -38,6 +38,7 @@ public class Hilo_Conservacion_Individual_Lista implements Runnable{
     public String referencia;
     
     //Gestiona el hilo de Conservación Individual Lista.
+    //Manages the Individual Conservation List thread.
     
     public Hilo_Conservacion_Individual_Lista(String entrada, String salida, String referencia){
         
