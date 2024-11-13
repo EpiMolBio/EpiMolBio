@@ -36,6 +36,7 @@ import java.util.logging.Logger;
 public class Calculos_Frecuencias_Posicion_Codones {
 
     //Calcula los codones posibles y las traducciones de estos en una posición dada.
+    //Calculates the possible codons and their translations at a given position.
     
     public static String cargarCalculosFrecuenciasPosicionCodones(String archivo, int posicion, String polimorfismos, int seleccion, int color, String MDR[]) {
        		 	
@@ -344,6 +345,7 @@ public class Calculos_Frecuencias_Posicion_Codones {
     }
 	
     //Traduce un codón dado.
+    //Translates a given codon.
     
     public static String traduccion(String codon) {
             
