@@ -33,6 +33,7 @@ import java.util.logging.Logger;
 public class Conteo_Interno {
     
     //Cuenta el número de secuencias que hay en un archivo .fasta y devuelve el valor.
+    //Counts the number of sequences in a .fasta file and returns the value.
     
     public static int cargarConteoInterno(String archivo){
         
