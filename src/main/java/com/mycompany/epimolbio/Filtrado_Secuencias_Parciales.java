@@ -40,6 +40,7 @@ import java.util.logging.Logger;
 public class Filtrado_Secuencias_Parciales {
     
     //Genera archivos .fasta a partir de otros, eliminando las secuencias que están incompletas en un porcentaje dado.
+    //Generates .fasta files from other files by removing sequences that are incomplete beyond a given percentage.
     
     public static void cargarFiltradoSecuenciasParciales(String archivo, String archivoGuardado, double porcentaje, int seleccionTipo, boolean seleccionarTipoArchivo){
       
