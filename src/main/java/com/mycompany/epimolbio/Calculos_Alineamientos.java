@@ -46,6 +46,9 @@ public class Calculos_Alineamientos {
     /*Hace alineamiento global por pares entre dos secuencias de aminoácidos usando la libreria BioJava.
     EpiMolBio usa una referencia y una secuencia problema.*/
     
+    /*Performs global pairwise alignment between two amino acid sequences using the BioJava library.
+    EpiMolBio uses a reference sequence and a query sequence.*/
+    
     public static String [] alineamientoAminoacidos(String query, String target, String openPenalty, String extensionPenalty) {   
         
         try{
@@ -101,6 +104,7 @@ public class Calculos_Alineamientos {
     }
     
     //Hace alineamiento local por pares entre dos secuencias de aminoácidos usando la libreria BioJava.
+    //Performs local pairwise alignment between two amino acid sequences using the BioJava library.
     
     public static String [] alineamientoAminoacidosLocal(String query, String target){   
         
@@ -143,6 +147,9 @@ public class Calculos_Alineamientos {
     
     /*Hace alineamiento global por pares entre dos secuencias de nucleótidos usando la libreria BioJava.
     EpiMolBio usa una referencia y una secuencia problema.*/
+    
+    /*Performs global pairwise alignment between two nucleotide sequences using the BioJava library.
+    EpiMolBio uses a reference sequence and a query sequence.*/
     
     public static String[] alineamientoNucleotidos(String querySeq, String targetSeq, String openPenalty, String extensionPenalty){
         
@@ -201,7 +208,8 @@ public class Calculos_Alineamientos {
     }
     
     //Hace alineamiento local por pares entre dos secuencias de nucleótidos usando la libreria BioJava.
-   
+    //Performs local pairwise alignment between two nucleotide sequences using the BioJava library.
+    
     public static String[] alineamientoNucleotidosLocal(String querySeq, String targetSeq, String openPenalty, String extensionPenalty){
         
         try{
