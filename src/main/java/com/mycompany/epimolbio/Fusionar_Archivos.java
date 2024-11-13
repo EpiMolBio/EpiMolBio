@@ -35,6 +35,7 @@ import java.util.logging.Logger;
 public class Fusionar_Archivos {
     
     //Genera un archivo .fasta uniendo los .fasta que se encuentren en la carpeta de entrada.
+    //Generates a .fasta file by merging the .fasta files found in the input folder.
     
     public static void cargarFusionarArchivos(String archivoCarga, String archivoGuardado){
     
