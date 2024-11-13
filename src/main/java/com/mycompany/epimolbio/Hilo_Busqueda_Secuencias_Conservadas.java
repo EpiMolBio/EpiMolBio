@@ -41,6 +41,7 @@ public class Hilo_Busqueda_Secuencias_Conservadas implements Runnable{
     public int rangoLongitudSuperior;
     
     //Gestiona el hilo de Búsqueda de Secuencias Conservadas.
+    //Manages the Conserved Sequences Search thread.
     
     public Hilo_Busqueda_Secuencias_Conservadas(String rutaCarga, String rutaGuardado, double porcentajeHomologia,
                     int valorInferior, int valorSuperior, int rangoLongitudInferior, int rangoLongitudSuperior){
