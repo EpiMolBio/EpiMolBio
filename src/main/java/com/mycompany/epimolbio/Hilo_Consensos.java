@@ -38,6 +38,7 @@ public class Hilo_Consensos implements Runnable {
     public String longitud;
     
     //Gestiona el hilo de Consensos.
+    //Manages the Consensus thread.
     
     public Hilo_Consensos(String rutaCarga, String rutaGuardado, int ronda, String longitud){
         
