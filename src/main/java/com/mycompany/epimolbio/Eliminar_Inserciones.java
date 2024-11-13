@@ -35,6 +35,7 @@ import java.util.logging.Logger;
 public class Eliminar_Inserciones {
 
     //Genera los archivos de la funcionalidad de Eliminar Inserciones. Elimina las inserciones respecto a una secuencia de referencia.
+    //Generates the files for the Remove Insertions functionality. Removes insertions relative to a reference sequence.
     
     public static void cargarEliminarInserciones(String entrada, String salida, String fichero, String secuenciaComparadora) {
         
@@ -159,6 +160,7 @@ public class Eliminar_Inserciones {
     }  
     
     //Elimina las inserciones respecto a una secuencia de referencia y devuelve el resultado.
+    //Removes insertions relative to a reference sequence and returns the result.
     
     private static String eliminarInserciones(String patron, String secuenciaComprobacion) {
 	
