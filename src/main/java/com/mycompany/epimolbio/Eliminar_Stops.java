@@ -37,6 +37,7 @@ import java.io.IOException;
 public class Eliminar_Stops {
     
     //Elimina las secuencias que contienen stops de uno o varios archivos .fasta. Funcionalidad no disponible desde el interfaz.
+    //Removes sequences containing stop codons from one or more .fasta files. This functionality is not available through the interface.
     
     public static void cargarEliminarStops(String carpeta, String carpetaSalida){
         
@@ -83,6 +84,7 @@ public class Eliminar_Stops {
     }
     
     //Genera uno o varios archivos .fasta filtrando las secuencias con stops que contienen el o los .fasta de entrada.
+    //Generates one or more .fasta files by filtering out sequences with stop codons from the input .fasta files.
     
     public static void filtrarStopsArchivo(String archivo, String carpetaSalida){
         
