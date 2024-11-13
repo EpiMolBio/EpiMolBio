@@ -38,6 +38,9 @@ public class Buscar_Reemplazar {
     /*Busca y reemplaza una serie de caracteres en secuencias en formato .fasta y genera una o varias salidas .fasta con el resultado. 
     Esto puede realizarlo tanto en el encabezado como en la secuencia*/
     
+    /*Search for and replace a series of characters in sequences in .fasta format and generate one or more .fasta output files with the result.
+    This can be done in both the header and the sequence.*/
+    
     public static void cargarBuscarReemplazar(String entrada, String salida, String buscar, String reemplazar, int modificacionArchivoEntero){
         
         try{
