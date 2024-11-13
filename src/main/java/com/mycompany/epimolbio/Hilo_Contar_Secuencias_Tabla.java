@@ -37,6 +37,7 @@ public class Hilo_Contar_Secuencias_Tabla implements Runnable{
     public int seleccion;
     
     //Gestiona el hilo de Contar Secuencias Tabla.
+    //Manages the Sequence Count Table thread.
     
     public Hilo_Contar_Secuencias_Tabla(String entrada, String salida, int seleccion){
         
