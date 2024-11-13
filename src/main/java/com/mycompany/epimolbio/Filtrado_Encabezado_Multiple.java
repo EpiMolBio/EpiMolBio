@@ -37,6 +37,7 @@ public class Filtrado_Encabezado_Multiple {
     public static char separador;
         
     //Filtra de uno o varios archivos .fasta las secuencias por su encabezado. Este puede coger más de un item para filtrar. Funcionalidad no disponible desde el interfaz.
+    //Filters sequences from one or more .fasta files based on their header. Multiple items can be used for filtering. This functionality is not available through the interface.
     
     public static void cargarFiltroEncabezadoMultiple(int valorFiltro[], String Fichero, String salidaArchivoA, int seleccionFiltro, String refiltrado, int traducirFiltro, String caracterSeparador) {
             
