@@ -33,6 +33,9 @@ public class Generador_Archivos_Eliminar_Inserciones {
     /*Carga los archivos los cuales son usados en la funcionalidad de Eliminar Inserciones.
     También genera los archivos con las inserciones eliminadas valiendose de la clase Eliminar_Inserciones.*/
     
+    /*Loads the files used in the Remove Insertions functionality.
+    Also generates files with the insertions removed using the Eliminar_Inserciones class.*/
+    
     public static void cargarGeneradorArchivosEliminarInserciones(String CarpetaEntradaAlineador, String salidaAlineador, String secuenciaComparadora){
         
         try{
