@@ -30,6 +30,7 @@ import java.util.logging.Logger;
 public class Eliminacion_Gaps {
     
     //Elimina los gaps de una secuencia introducida.
+    //Removes the gaps from an input sequence.
     
     public static String cargarEliminacionGaps(String secuencia){
         
