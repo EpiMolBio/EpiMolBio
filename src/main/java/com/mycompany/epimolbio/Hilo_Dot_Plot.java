@@ -37,6 +37,7 @@ public class Hilo_Dot_Plot implements Runnable {
     public String salida;
     
     //Gestiona el hilo del Dot Plot.
+    //Manages the Dot Plot thread.
     
     public Hilo_Dot_Plot(String salida, String secuenciaA, String secuenciaB){
         
