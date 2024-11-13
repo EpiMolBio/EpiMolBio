@@ -38,6 +38,7 @@ public class Hilo_Contar_Secuencias_Mutadas implements Runnable {
     public int ntAa;
     
     //Gestiona el hilo de Contar Secuencias Mutadas.
+    //Manages the Mutated Sequences Count thread.
     
     public Hilo_Contar_Secuencias_Mutadas(String entrada, String salida, String referencia, int ntAa){
         
