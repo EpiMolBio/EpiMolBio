@@ -39,6 +39,9 @@ public class Fusionar_Secuencias {
     /*Genera uno o varios archivos fasta a partir de los .fasta de 2 carpetas de entrada. Se unen las secuencias que tienen el mismo encabezado de los .fasta con el mismo nombre.
     Primero se escribe la secuencia de la carpeta 1 y después la de la carpeta 2. Funcionalidad no disponible desde el interfaz.*/
     
+    /*Generates one or more .fasta files from the .fasta files in two input folders. Sequences with the same header from .fasta files with matching names are merged.
+    The sequence from folder 1 is written first, followed by the sequence from folder 2. This functionality is not available through the interface.*/
+    
     public static void cargarFusionarSecuencias(String carpetaEntrada, String salida){
         
         try{
