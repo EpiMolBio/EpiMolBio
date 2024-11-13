@@ -36,6 +36,9 @@ public class Generador_Archivos_Traductor_Gaps {
     /*Genera los archivos de la funcionalidad Traducción. Se generan archivos .fasta con las secuencias de entrada traducidas y/o con los gaps eliminados.
     Hace uso de la clase Traductor_Gaps.*/
     
+    /*Generates files for the Translation functionality. .fasta files are created with the translated input sequences and/or with gaps removed.
+    Utilizes the Traductor_Gaps class.*/
+    
     public static void cargarGeneradorArchivosTraductorGaps(String carpetaEntrada, String archivoEntrada, int selectorFiltro[], int traducirNoFiltro, int gapsNoFiltro, int marco, String directorioSalida, 
             int seleccionFiltro, int traducirFiltro, String separador){
         
