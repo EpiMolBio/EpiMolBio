@@ -39,7 +39,8 @@ public class Hilo_Filtrado_Encabezado_Unico implements Runnable{
     public int eliminarGaps;
     public int traducir;
     
-    //Gestiona el hilo de Filtrado Encabezado Unico.
+    //Gestiona el hilo de Filtrado Encabezado Único.
+    //Manages the Unique Header Filtering thread.
     
     public Hilo_Filtrado_Encabezado_Unico(String entrada, String salida, String separador, int posicionMarcado, int eliminarGaps, int traducir){
         
