@@ -61,6 +61,9 @@ public class Botones_Calcular {
     /*Gestiona el color del botón de calcular pulsado. Cuando uno se pulsa, 
     todos se ponen en el color correspondiente a botón pulsado*/
     
+    /*Manages the color of the clicked "Calculate" button. When one is clicked,
+    all buttons change to the color corresponding to the clicked button.*/
+    
     public static void llamadaCalcular(){
         
         btn_calcular_simples.setBackground(color2);
