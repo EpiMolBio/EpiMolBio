@@ -61,6 +61,9 @@ public class Botones_Calcular_Finalizada {
     /*Gestiona el color del botón de calcular no pulsado. Cuando acaban los cálculos, 
     todos se ponen en el color correspondiente a botón no pulsado*/
     
+    /*Manage the color of the unpressed calculate button. When the calculations are finished,
+    all of them turn to the color corresponding to the unpressed button.*/
+    
     public static void llamadaCalcularFinalizada(){
         
         btn_calcular_simples.setBackground(color1);
