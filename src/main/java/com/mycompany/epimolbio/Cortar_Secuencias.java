@@ -36,7 +36,10 @@ import java.util.logging.Logger;
 public class Cortar_Secuencias {
     
     /*Corta las secuencias de uno o varios archivos .fasta y genera una salida en formato .fasta con el resultado. Funcionalidad no disponible desde el interfaz.
-    Este corte se hace entre las posiciones indicadas*/
+    Este corte se hace entre las posiciones indicadas.*/
+    
+    /*Cuts the sequences from one or more .fasta files and generates an output in .fasta format with the result. This functionality is not available through the interface.
+    The cut is made between the specified positions.*/
     
     public static void cargarCortarSecuencias(String carpetaRuta, String carpetaSalida, int rangoInferior, int rangoSuperior) {
 	
@@ -70,6 +73,7 @@ public class Cortar_Secuencias {
     }
 	
     //Corta la secuencia entre los valores de las posiciones introducidas y devuelve el encabezado con la secuencia cortada.
+    //Cuts the sequence between the specified position values and returns the header with the trimmed sequence.
     
     public static String cortarSecuencias(String secuencia, String encabezado, int valorMinimo, int valorMaximo) {
         
