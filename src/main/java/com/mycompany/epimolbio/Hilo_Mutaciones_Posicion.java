@@ -38,6 +38,7 @@ public class Hilo_Mutaciones_Posicion implements Runnable{
     public boolean modo;
     
     //Gestiona el hilo de Mutaciones por Posición.
+    //Manages the Mutations by Position thread.
     
     public Hilo_Mutaciones_Posicion(String archivoCarga, String archivoGuardado, String mutaciones, boolean modo){
         
