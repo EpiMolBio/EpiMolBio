@@ -43,6 +43,7 @@ public class Mutaciones_Posicion {
     public static String retornador3 = "";
     
     //Prueba las combinaciones posibles entre los residuos de las posiciones indicadas y calcula la frecuencia de aparición conjunta.
+    //Tests possible combinations between residues at the specified positions and calculates their joint occurrence frequency.
     
     public static void cargarMutacionesPosicion(String archivoCarga, String archivoGuardado, String mutaciones, boolean modo){
         
@@ -316,6 +317,7 @@ public class Mutaciones_Posicion {
     }
     
     //Gestiona la opción de cargar archivos desde subcarpetas de la funcionalidad Mutaciones por Posición.
+    //Manages the option to load files from subfolders in the Mutations by Position functionality.
     
     public static void lectorSubcarpetas(String archivoCarga, String archivoGuardado, String mutaciones) throws Exception{
         
@@ -488,6 +490,7 @@ public class Mutaciones_Posicion {
     }
     
     //Realiza las combinaciones.
+    //Performs the combinations.
     
     private static ArrayList<String[]> generarCombinaciones(ArrayList<String[]> conjuntos, int indice, String[] combinacionActual) {
        
