@@ -39,6 +39,7 @@ public class Hilo_Otras_Mutaciones_Pol_Lista implements Runnable {
     public int virus;
     
     //Gestiona el hilo de Otras Mutaciones Pol Lista.
+    //Manages the Other Pol Mutations List thread.
     
     public Hilo_Otras_Mutaciones_Pol_Lista(String entrada, String salida, int seleccionProteina, int cribado, int virus){
         
