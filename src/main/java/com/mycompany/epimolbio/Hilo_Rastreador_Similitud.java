@@ -42,6 +42,7 @@ public class Hilo_Rastreador_Similitud implements Runnable{
     public double homologia;
     
     //Gestiona el hilo del Rastreador por Similitud.
+    //Manages the Similarity Tracker thread.
     
     public Hilo_Rastreador_Similitud(final String archivoCarga, String archivoGuardado, int rangoInferior, int rangoSuperior, String ejemplo, int tipoSecuencia, double homologia){
         
