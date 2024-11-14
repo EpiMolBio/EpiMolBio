@@ -37,6 +37,7 @@ public class Hilo_Wu_Kabat implements Runnable{
     public int longitud;
     
     //Gestiona el hilo del Coeficiente de Variabilidad de Wu-Kabat.
+    //Manages the Wu-Kabat Variability Coefficient thread.
     
     public Hilo_Wu_Kabat(String entrada, String salida, int longitud){
         
