@@ -42,6 +42,7 @@ public class Hilo_Tabla_Mutaciones_Subcarpetas implements Runnable{
     public int tipoTabla;
     
     //Gestiona el hilo de la opción de subcarpetas de la Tabla de Mutaciones.
+    //Manages the thread for the Mutations Table subfolder option.
     
     public Hilo_Tabla_Mutaciones_Subcarpetas(String archivoCarga, String archivoGuardado, String wt, double valorMinimo, boolean orden, int seleccion, String mutacionSeleccionada, int tipoTabla){
         
