@@ -37,6 +37,9 @@ public class Otras_Mutaciones_Pol_Tabla {
     /*Calcula la frecuencia de aparición de mutaciones en el pool de secuencias introducidas del gen Pol, valiendose de la clase Calculos_Frecuencias_Posicion.
     El resultado es una tabla en formato .html*/
     
+    /*Calculates the frequency of mutations in the input sequence pool for the Pol gene, using the Calculos_Frecuencias_Posicion class. 
+    The result is a table in .html format.*/
+    
     public static void cargarOtrasMutacionesPolTabla(String entrada, String salida, int virus, int proteina){
         	
         try{
