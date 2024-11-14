@@ -39,6 +39,7 @@ public class Hilo_MDR_Codones implements Runnable{
     public String codonesAnalizar;
     
     //Gestiona el hilo de MDR Codones.
+    //Manages the DRM Codons thread.
     
     public Hilo_MDR_Codones(String archivoCarga, String archivoGuardado, int tipoMDRCodones, String codonesAnalizar){
         
