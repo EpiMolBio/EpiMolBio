@@ -37,6 +37,7 @@ public class Hilo_Tabla_MDR implements Runnable{
     public int proteina;
     
     //Gestiona el hilo de la Tabla MDR.
+    //Manages the DRM Table thread.
     
     public Hilo_Tabla_MDR(String entrada, String salida, int proteina){
         
