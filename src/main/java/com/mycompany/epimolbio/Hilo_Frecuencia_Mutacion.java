@@ -39,6 +39,7 @@ public class Hilo_Frecuencia_Mutacion implements Runnable{
     public int tipoSecuencia;
     
     //Gestiona el hilo de Frecuencia de Mutación.
+    //Manages the Mutation Frequency thread.
     
     public Hilo_Frecuencia_Mutacion(String archivoCarga, String archivoGuardado, String consenso, int alinear, int tipoSecuencia){
         
