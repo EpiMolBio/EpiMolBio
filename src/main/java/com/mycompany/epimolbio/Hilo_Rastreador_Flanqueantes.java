@@ -43,6 +43,7 @@ public class Hilo_Rastreador_Flanqueantes implements Runnable{
     public int tamanoSecuencia;
     
     //Gestiona el hilo del Rastreador por secuencias Flanqueantes.
+    //Manages the Flanking Sequences Tracker thread.
     
     public Hilo_Rastreador_Flanqueantes(String carga, String guardado, int tipoSecuencia, int proteinaSeleccionada, int rangoInf, int rangoSup, String delante, String detras, int tamanoSecuencia){
     
