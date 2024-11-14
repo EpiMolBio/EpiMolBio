@@ -27,6 +27,7 @@ import java.util.logging.Logger;
  *
  * @author Roberto Reinosa Fernández
  */
+
 public class Hilo_Rastreador_Flanqueantes_Todos implements Runnable {
     
     public static Thread t_rastreador_orf_todos;
@@ -41,6 +42,7 @@ public class Hilo_Rastreador_Flanqueantes_Todos implements Runnable {
     public int tamanoSecuencia;
     
     //Gestiona el hilo del Rastreador por secuencias Flanqueantes, cuando se hace la búsqueda de todas las regiones.
+    //Manages the Flanking Sequences Tracker thread when searching all regions.
     
     public Hilo_Rastreador_Flanqueantes_Todos(String carga, String guardado, int tipoSecuencia, int rangoInf, int rangoSup, String delante, String detras, int tamanoSecuencia){
     
