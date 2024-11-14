@@ -50,6 +50,9 @@ public class Rastreador_Flanqueantes {
     /*Busca secuencias concretas sirviendose de una región delimitada por 2 secuencias flanqueantes, una longitud máxima y mínima
     y un rango de posiciones en la secuencia donde se realiza la búsqueda.*/
     
+    /*Searches for specific sequences using a region defined by 2 flanking sequences, a maximum and minimum length,
+    and a range of positions in the sequence where the search is performed.*/
+    
     public static void cargarRastreadorFlanqueantes(String archivoCarga, String archivoGuardado, int tipoSecuencia, int proteinaSeleccionada, int rangoInf, int rangoSup, String delante, String detras, int tamanoSecuencia){
         
         try{
@@ -766,7 +769,8 @@ public class Rastreador_Flanqueantes {
         }       
     }
     
-     //Elimina las carpetas y archivos temporales.
+    //Elimina las carpetas y archivos temporales.
+    //Removes temporary folders and files.
     
     public static void eliminarArchivosTemporalesRastreador(){
         
