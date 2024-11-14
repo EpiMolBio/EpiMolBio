@@ -37,6 +37,9 @@ public class Similitud {
     /*Calcula el porcentaje de conservación de una secuencia completa problema en un pool de secuencias en archivos .fasta. 
     El resultado es un archivo .html. Esto lo hace valiendose de la clase Calculos_Frecuencias_Posicion.*/
     
+    /*Calculate the conservation percentage of a complete sequence problem in a pool of sequences in .fasta files.
+    The result is an .html file. This is done using the Calculos_Frecuencias_Posicion class.*/
+    
     public static void cargarHomologiaSimilitud(String entrada, String salida, String secuenciaProblema, int homologiaInferior, int homologiaSuperior){
         
         try{
