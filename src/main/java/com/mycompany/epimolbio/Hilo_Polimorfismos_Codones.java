@@ -38,6 +38,7 @@ public class Hilo_Polimorfismos_Codones implements Runnable{
     public int criba;
     
     //Gestiona el hilo de Polimorfismos Codones.
+    //Manages the Codon Polymorphisms thread.
     
     public Hilo_Polimorfismos_Codones(String entrada, String salida, String referencia, int criba){
         
