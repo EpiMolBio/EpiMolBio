@@ -42,6 +42,7 @@ public class Rastreador_Similitud {
     public static String secuencias[] = new String[1000000];
     
     //Busca secuencias concretas por similitud en un pool de secuencias de longitud superior.
+    //Searches for specific sequences by similarity in a larger pool of sequences.
     
     public static void cargarRastreadorSimilitud(final String archivoCarga, String archivoGuardado, int rangoInferior, int rangoSuperior, String ejemplo, int tipoSecuencia, double homologia) throws IOException {
         
