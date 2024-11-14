@@ -42,6 +42,7 @@ public class Mutaciones_Multiples {
     public static String retornador2 = "";
     
     //Calcula la frecuencia de aparición entre varias mutaciones de uno o varios archivos .fasta, donde el resultado es guardado en un archivo.csv
+    //Calculates the frequency of occurrence among various mutations from one or more .fasta files, with the result saved in a .csv file.
     
     public static void cargarMutacionesMultiples(String archivoCarga, String archivoGuardado, String mutaciones, boolean modo){
         
@@ -283,6 +284,7 @@ public class Mutaciones_Multiples {
     }
     
     //Sirve para poder leer archivos .fasta en subcarpetas de la funcionalidad de Mutaciones Múltiples.
+    //Is used to read .fasta files in subfolders of the Multiple Mutations functionality.
     
     public static void lectorSubcarpetasMutacionesMultiples(String archivoCarga, String archivoGuardado, String mutaciones) throws Exception{
         
