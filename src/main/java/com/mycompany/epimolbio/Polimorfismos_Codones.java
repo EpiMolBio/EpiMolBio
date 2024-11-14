@@ -37,6 +37,9 @@ public class Polimorfismos_Codones {
     /*Encuentra los codones mutados respecto a una secuencia de referencia, valiendose de la clase Calculos_Frecuencias_Posicion_Codones.
     El restultado es un listado en html*/
     
+    /*Finds the mutated codons relative to a reference sequence, using the Calculos_Frecuencias_Posicion_Codones class.
+    The result is a list in html format.*/
+    
     public static void cargarPolimorfismosCodones(String entrada, String salida, String referencia, int criba){
                        
         try{
