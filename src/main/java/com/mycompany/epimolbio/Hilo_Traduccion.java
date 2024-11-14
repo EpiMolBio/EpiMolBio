@@ -44,6 +44,7 @@ public class Hilo_Traduccion implements Runnable{
     public String separador;
     
     //Gestiona el hilo de Traducción.
+    //Manages the Translation thread.
     
     public Hilo_Traduccion(String CarpetaEntrada, String archivoEntrada, int selectorFiltro[], int traducirNoFiltro, int gapsNoFiltro, int marco, String directorioSalida, 
             int seleccionFiltro, int traducirFiltro, String separador){
