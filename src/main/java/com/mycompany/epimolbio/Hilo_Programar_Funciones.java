@@ -35,6 +35,7 @@ public class Hilo_Programar_Funciones implements Runnable{
     public String entrada;
     
     //Gestiona el hilo de Programar Funciones.
+    //Manages the Schedule Functions thread.
     
     public Hilo_Programar_Funciones(String entrada){
         
