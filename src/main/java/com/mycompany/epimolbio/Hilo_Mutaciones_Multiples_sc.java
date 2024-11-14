@@ -37,6 +37,7 @@ public class Hilo_Mutaciones_Multiples_sc implements Runnable{
     public String mutaciones;
     
     //Gestiona el hilo de la opción de subcarpetas de Mutaciones Múltiples.
+    //Manages the thread for the Multiple Mutations subfolder option.
     
     public Hilo_Mutaciones_Multiples_sc(String archivoCarga, String archivoGuardado, String mutaciones){
      
