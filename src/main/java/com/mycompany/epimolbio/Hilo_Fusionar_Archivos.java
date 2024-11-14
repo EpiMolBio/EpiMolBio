@@ -36,6 +36,7 @@ public class Hilo_Fusionar_Archivos implements Runnable{
     public String guardado;
     
     //Gestiona el hilo de Fusionar Archivos.
+    //Manages the Merge Files thread.
     
     public Hilo_Fusionar_Archivos(String carga, String guardado){
         
