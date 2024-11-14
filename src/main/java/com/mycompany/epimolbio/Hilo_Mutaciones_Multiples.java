@@ -38,6 +38,7 @@ public class Hilo_Mutaciones_Multiples implements Runnable {
     public boolean modo;
     
     //Gestiona el hilo de Mutaciones Múltiples.
+    //Manages the Multiple Mutations thread.
     
     public Hilo_Mutaciones_Multiples(String archivoCarga, String archivoGuardado, String mutaciones, boolean modo){
      
