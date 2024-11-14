@@ -38,6 +38,7 @@ import java.util.logging.Logger;
 public class Wu_Kabat {
     
     //Calcula el coeficiente de variabilidad de Wu-Kabat, para la funcionalidad Coeficiente de Variabilidad de Wu-Kabat.
+    //Calculates the Wu-Kabat variability coefficient for the Wu-Kabat Variability Coefficient functionality.
     
     public static void cargarWuKabat(String entrada, String salida, int longitud){
         
