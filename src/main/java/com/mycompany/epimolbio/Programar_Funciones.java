@@ -45,6 +45,7 @@ import java.util.logging.Logger;
 public class Programar_Funciones {
     
     //Lanza cualquier funcionalidad del programa siguiendo las intrucciones de un archivo .csv. Este puede contener más de una instrucción para automatizar análisis completos.
+    //Executes any functionality of the program following the instructions in a .csv file. This file can contain multiple instructions to automate complete analyses.
     
     public static void cargarProgramarFunciones(String archivoCarga){
      
