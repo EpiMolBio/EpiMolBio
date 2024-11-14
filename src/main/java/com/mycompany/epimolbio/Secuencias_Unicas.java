@@ -36,6 +36,7 @@ import java.util.logging.Logger;
 public class Secuencias_Unicas {
     
     //Busca todas las secuencias que hay en uno o varios archivos .fasta y genera uno o varios archivos .fasta con las secuencias sin repeticiones.
+    //Searches for all sequences in one or more .fasta files and generates one or more .fasta files with the unique sequences.
     
     public static void cargarSecuenciasUnicas(String entrada, String salida, double frecuenciaMinima){
         
