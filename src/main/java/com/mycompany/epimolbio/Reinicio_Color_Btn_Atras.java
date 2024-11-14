@@ -68,6 +68,7 @@ import static com.mycompany.epimolbio.Interfaz.btn_atras_panel_individual_codone
 public class Reinicio_Color_Btn_Atras {
     
     //Gestiona el color de lo botones con el texto Atrás, para que recuperen el color azul correctamente.
+    //Manages the color of the buttons with the text "Back," so they correctly return to the blue color.
     
     public static void reinicioColorBotones(){
         
