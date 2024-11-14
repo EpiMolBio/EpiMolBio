@@ -428,6 +428,7 @@ public class Seleccionar_Idioma {
         if(idioma == 1){
                
             //Portada
+            //Home
             
             jTextPane1.setText("<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>EpiMolBio</strong> es un programa bioinformático <strong>freeware</strong> que dispone de multitud de funciones para el estudio de la <strong>variabilidad genética</strong>.</p>"
                 + "<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'>Programa desarrollado por <strong>Roberto Reinosa Fernández</strong> con la colaboración de <strong>Paloma Troyano Hernáez</strong>, bajo la supervisión y coordinación de la <strong>Dra. África Holguín Fernández</strong>"
@@ -435,16 +436,19 @@ public class Seleccionar_Idioma {
                 +"<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>Licencia Creative Commons Attribution-NonCommercial-NoDerivates 4.0</strong>. <br> Versión del programa 0.1</p>");
         
             
-            //Dialog Cálculos FInalizados
+            //Dialog Cálculos Finalizados
+            //Dialog Calculations Completed
             
             jLabel1.setText("Cálculos Finalizados");
                         
             //Inicio
+            //Home
             
             jLabel16.setText("Análisis de la variabilidad genética");   
             jLabel16.setLocation(150, 80);
 
             //Menú Principal
+            //Main Menu
             
             jLabel10.setText(tituloDinamico);
             jLabel6.setText("INICIO");
@@ -455,6 +459,7 @@ public class Seleccionar_Idioma {
             jLabel14.setText("HERRAMIENTAS");
             
             //Panel Utilidades Polimorfismos
+            //Polymorphism Utilities Panel
             
             jLabel380.setText("Entrada");
             jLabel380.setBounds(10, 10, 500, 29);
@@ -502,6 +507,7 @@ public class Seleccionar_Idioma {
             jComboBox31.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Mostrar > 75%", "Mostrar >= 90%" }));
             
             //Panel Utilidades Polimorfismos Codones
+            //Codon Polymorphism Utilities Panel
             
             jLabel370.setText("Entrada");
             jLabel370.setBounds(10, 10, 500, 29);
@@ -533,6 +539,7 @@ public class Seleccionar_Idioma {
             jComboBox29.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Mostrar 100%", "Mostrar > 75%" }));
             
             //Panel Individual Tripletes Polimorfismos
+            //Individual Triplet Polymorphism Panel
             
             jLabel366.setText("Individual");
             jLabel366.setBounds(250, 20, 500, 29);
@@ -544,6 +551,7 @@ public class Seleccionar_Idioma {
             jLabel368.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Conservación Codones
+            //Codon Conservation Utilities Panel
             
             jLabel358.setText("Entrada");
             jLabel358.setBounds(10, 10, 500, 29);
@@ -575,6 +583,7 @@ public class Seleccionar_Idioma {
             jComboBox28.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Mostrar 100%", "Mostrar > 75%" }));
             
             //Panel Utilidades Conservación
+            //Conservation Utilities Panel
             
             jLabel348.setText("Entrada");
             jLabel348.setBounds(10, 10, 500, 29);
@@ -606,6 +615,7 @@ public class Seleccionar_Idioma {
             jComboBox27.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Lista", "Tabla" }));
             
             //Panel Individual Tripletes Conservación
+            //Individual Triplet Conservation Panel
             
             jLabel344.setText("Individual");
             jLabel344.setBounds(255, 20, 500, 29);
@@ -617,6 +627,7 @@ public class Seleccionar_Idioma {
             jLabel346.setBounds(10, 10, 500, 29);
             
             //Panel Filtros
+            //Filters Panel
             
             jLabel342.setText("Filtrado por Encabezado");
             jLabel342.setBounds(200, 20, 500, 29);
@@ -631,6 +642,7 @@ public class Seleccionar_Idioma {
             jLabel343.setBounds(10, 10, 500, 29);
             
             //Panel Fusionar
+            //Merge Panel
             
             jLabel339.setText("Fusionar Archivos");
             jLabel339.setBounds(230, 20, 500, 29);
@@ -642,6 +654,7 @@ public class Seleccionar_Idioma {
             jLabel340.setBounds(10, 10, 500, 29);
             
             //Panel Edición
+            //Editing Panel
             
             jLabel334.setText("Fusionar Archivos");
             jLabel334.setBounds(235, 20, 500, 29);
@@ -659,6 +672,7 @@ public class Seleccionar_Idioma {
             jLabel331.setBounds(210, 20, 500, 29);
             
             //Panel Herramientas
+            //Tools Panel
             
             jLabel329.setText("Edición de Archivos");
             jLabel329.setBounds(220, 20, 500, 29);
@@ -676,6 +690,7 @@ public class Seleccionar_Idioma {
             jLabel330.setBounds(200, 20, 500, 29);
             
             //Panel Utilidades Fusionar Secuencias
+            //Sequence Merging Utilities Panel
             
             jLabel320.setText("Entrada");
             jLabel320.setBounds(10, 10, 500, 29);
@@ -702,6 +717,7 @@ public class Seleccionar_Idioma {
             jLabel319.setBounds(10, 10, 500, 29);
                     
             //Panel Utilidades Secuencias Únicas
+            //Unique Sequences Utilities Panel
             
             jLabel312.setText("Entrada");
             jLabel312.setBounds(10, 10, 500, 29);
@@ -728,6 +744,7 @@ public class Seleccionar_Idioma {
             jLabel311.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Contar Secuencias
+            //Sequence Counting Utilities Panel
             
             jLabel303.setText("Entrada");
             jLabel303.setBounds(10, 10, 500, 29);
@@ -759,6 +776,7 @@ public class Seleccionar_Idioma {
             jComboBox25.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Tabla", "Secuencias Mutadas" }));
             
             //Panel Utilidades Alineador
+            //Aligner Utilities Panel
             
             jLabel295.setText("Entrada");
             jLabel295.setBounds(10, 10, 500, 29);
@@ -785,6 +803,7 @@ public class Seleccionar_Idioma {
             jLabel294.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Fisionar Archivos
+            //File Merging Utilities Panel
             
             jLabel288.setText("Entrada");
             jLabel288.setBounds(10, 10, 500, 29);
@@ -811,6 +830,7 @@ public class Seleccionar_Idioma {
             jLabel286.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Programar Funciones
+            //Function Programming Utilities Panel
             
             jLabel280.setText("Entrada");
             jLabel280.setBounds(10, 10 , 500, 29);
@@ -831,6 +851,7 @@ public class Seleccionar_Idioma {
             jLabel277.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Filtrado Secuencias Parciales
+            //Partial Sequence Filtering Utilities Panel
             
             jLabel272.setText("Entrada");
             jLabel272.setBounds(10, 10, 500, 29);
@@ -862,6 +883,7 @@ public class Seleccionar_Idioma {
             jComboBox24.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Aminoácidos", "Nucleótidos" }));
             
             //Panel Utilidades Búsqueda Secuencias
+            //Sequence Search Utilities Panel
             
             jLabel263.setText("Entrada");
             jLabel263.setBounds(10, 10, 500, 29);
@@ -892,7 +914,8 @@ public class Seleccionar_Idioma {
             
             jComboBox23.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "CSV", "FASTA" }));
             
-            //Panel Utilidades Buscar Reemplazar 
+            //Panel Utilidades Buscar Reemplazar
+            //Find and Replace Utilities Panel
             
             jLabel254.setText("Entrada");
             jLabel254.setBounds(10, 10, 500, 29);
@@ -928,6 +951,7 @@ public class Seleccionar_Idioma {
             jLabel253.setBounds(10, 10, 500, 29);
            
             //Panel Utilidades Filtro Específico
+            //Specific Filter Utilities Panel
             
             jLabel246.setText("Entrada");
             jLabel246.setBounds(10, 10, 500, 29);
@@ -954,6 +978,7 @@ public class Seleccionar_Idioma {
             jLabel243.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Traducción
+            //Translation Utilities Panel
             
             jLabel238.setText("Entrada");
             jLabel238.setBounds(10, 10, 500, 29);
@@ -988,6 +1013,7 @@ public class Seleccionar_Idioma {
             jComboBox22.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Marco 1", "Marco 2", "Marco 3" }));
             
             //Panel Utilidades Filtro
+            //Filter Utilities Panel
             
             jLabel228.setText("Entrada");
             jLabel228.setBounds(10, 10, 500, 29);
@@ -1026,6 +1052,7 @@ public class Seleccionar_Idioma {
             jLabel225.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Frecuencia Mutación
+            //Mutation Frequency Utilities Panel
             
             jLabel218.setText("Entrada");
             jLabel218.setBounds(10, 10, 500, 29);
@@ -1059,7 +1086,8 @@ public class Seleccionar_Idioma {
             jLabel217.setText("Cancelar");
             jLabel217.setBounds(10, 10, 500, 29);
             
-            //Panel Utilidades Wu Kabat
+            //Panel Utilidades Wu-Kabat
+            //Wu-Kabat Utilities Panel
             
             jLabel212.setText("Entrada");
             jLabel212.setBounds(10, 10, 500, 29);
@@ -1086,6 +1114,7 @@ public class Seleccionar_Idioma {
             jLabel207.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Consensos
+            //Consensus Utilities Panel
             
             jLabel202.setText("Entrada");
             jLabel202.setBounds(10, 10, 500, 29);
@@ -1117,6 +1146,7 @@ public class Seleccionar_Idioma {
             jComboBox21.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Ronda 1", "Rondas Sucesivas" }));
             
             //Panel Variabilidad
+            //Variability Panel
             
             jLabel195.setText("Polimorfismos");
             jLabel195.setBounds(230, 20, 500, 29);
@@ -1134,6 +1164,7 @@ public class Seleccionar_Idioma {
             jLabel199.setBounds(180, 20, 500, 29);
             
             //Panel Utilidades Dot Plot
+            //Dot Plot Utilities Panel
             
             jLabel198.setText("< Atrás");
             jLabel198.setBounds(10, 10, 500, 29);
@@ -1157,6 +1188,7 @@ public class Seleccionar_Idioma {
             jLabel187.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Alineamientos Múltiples
+            //Multiple Alignments Utilities Panel
             
             jLabel182.setText("Entrada");
             jLabel182.setBounds(10, 10, 87, 29);
@@ -1188,6 +1220,7 @@ public class Seleccionar_Idioma {
             jLabel178.setBounds(10, 10, 500, 29);
                                     
             //Panel Alineamientos Dot Plot
+            //Dot Plot Alignments Panel
             
             jLabel165.setText("Alineamientos Múltiples");
             jLabel165.setBounds(190, 20, 500, 29);
@@ -1196,6 +1229,7 @@ public class Seleccionar_Idioma {
             jLabel336.setBounds(210, 20, 500, 29);
             
             //Panel Utilidades Rastreador Flanqueantes
+            //Flanking Region Tracker Utilities Panel
             
             jLabel157.setText("Entrada");
             jLabel157.setBounds(10, 10, 500, 29);
@@ -1233,6 +1267,7 @@ public class Seleccionar_Idioma {
             jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Aminoácidos", "Nucleótidos" }));
             
             //Panel Utilidades Rastreador Similitud
+            //Similarity Tracker Utilities Panel
             
             jLabel146.setText("Entrada");
             jLabel146.setBounds(10, 10, 500, 29);
@@ -1275,6 +1310,7 @@ public class Seleccionar_Idioma {
             jLabel145.setBounds(10, 10, 500, 29);
                         
             //Panel Similitud Flanqueantes
+            //Flanking Similarity Panel
             
             jLabel142.setText("Similitud");
             jLabel142.setBounds(270, 20, 500, 29);
@@ -1284,6 +1320,7 @@ public class Seleccionar_Idioma {
             
             
             //Panel Utilidades Diseno Secuencias
+            //Sequence Design Utilities Panel
             
             jLabel130.setText("Entrada");
             jLabel130.setBounds(10, 10, 500, 29);
@@ -1324,6 +1361,7 @@ public class Seleccionar_Idioma {
             jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Todo el Rango", "Seleccionar Rango" }));
             
             //Panel Utilidades Similitud Parcial
+            //Partial Similarity Utilities Panel
             
             jLabel119.setText("Entrada");
             jLabel119.setBounds(10, 10, 500, 29);
@@ -1362,6 +1400,7 @@ public class Seleccionar_Idioma {
             jLabel118.setBounds(10, 10, 500, 29);
                         
             //Panel Utilidades Similitud
+            //Similarity Utilities Panel
             
             jLabel110.setText("Entrada");
             jLabel110.setBounds(10, 10, 500, 29);
@@ -1391,6 +1430,7 @@ public class Seleccionar_Idioma {
             jLabel109.setBounds(10, 10, 500, 29);
             
             //Panel Similitud Diseño Similitud Parcial
+            //Similarity, Design, and Partial Similarity Panel
             
             jLabel88.setText("Similitud");
             jLabel88.setBounds(270, 20, 500, 29);
@@ -1401,7 +1441,8 @@ public class Seleccionar_Idioma {
             jLabel108.setText("Búsqueda de Secuencias Conservadas");
             jLabel108.setBounds(120, 20, 500, 29);
             
-            //Panel Utilidades Rastreador SARS CoV 2
+            //Panel Utilidades Rastreador SARS-CoV-2
+            //SARS-CoV-2 Tracker Utilities Panel
             
             jLabel90.setText("Entrada");
             jLabel90.setBounds(10, 10, 500, 29);
@@ -1435,6 +1476,7 @@ public class Seleccionar_Idioma {
                 "nsp16 (2'-O-Metiltransferasa)", "S (Spike)", "ORF3a", "E (Envuelta)", "M (Membrana)", "ORF6", "ORF7a", "ORF7b", "ORF8", "N (Nucleocapside)", "ORF10", "Todas" }));
             
             //Panel Rastreador Proteínas Virus
+            //Virus Protein Tracker Panel
             
             jLabel80.setText("Rastreador de Proteínas");
             jLabel80.setBounds(190, 20, 500, 29);
@@ -1443,6 +1485,7 @@ public class Seleccionar_Idioma {
             jLabel98.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Conservación Pol
+            //Conservation Pol Utilities Panel
             
             jLabel82.setText("Entrada");
             jLabel82.setBounds(10, 10, 500, 29);
@@ -1477,6 +1520,7 @@ public class Seleccionar_Idioma {
             jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "PR", "RT", "IN" }));
             
             //Panel Utilidades Otras Mutaciones Pol
+            //Other Pol Mutations Utilities Panel
             
             jLabel71.setText("Entrada");
             jLabel71.setBounds(10, 10, 500, 29);
@@ -1519,11 +1563,13 @@ public class Seleccionar_Idioma {
             jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "100%", "> 75%"}));
             
             //Panel VIH SARS-CoV-2
+            //HIV SARS-CoV-2 Panel
             
             jLabel78.setText("VIH");
             jLabel78.setBounds(290, 20, 500, 29);     
             
             //Panel Utilidades MDR Tripletes
+            //DRM Triplet Utilities Panel
             
             jLabel51.setText("Entrada");
             jLabel51.setBounds(10, 10, 500, 29);
@@ -1558,6 +1604,7 @@ public class Seleccionar_Idioma {
             jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "MDR-IP", "MDR-ITIAN", "MDR-ITINAN", "MDR-INI", "MDR-ICA" }));
             
             //Panel Utilidades Transmitidas
+            //Transmitted Utilities Panel
             
             jLabel35.setText("Entrada");
             jLabel35.setBounds(10, 10, 500, 29);
@@ -1590,6 +1637,7 @@ public class Seleccionar_Idioma {
             jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Lista", "Tabla", "Tabla Resumen" }));
             
             //Panel Mutaciones Polimorfismos
+            //Polymorphism Mutations Panel
             
             jLabel19.setText("Mutaciones de Resistencia");
             jLabel19.setBounds(180, 20, 500, 29);
@@ -1604,6 +1652,7 @@ public class Seleccionar_Idioma {
             jLabel99.setBounds(10, 10, 500, 29);
             
             //Panel Simple Transmitida
+            //Simple Transmitted Panel
             
             jLabel23.setText("Adquiridas");
             jLabel23.setBounds(250, 20, 500, 29);
@@ -1615,6 +1664,7 @@ public class Seleccionar_Idioma {
             jLabel101.setBounds(10, 10, 500, 29);
            
             //Panel Individual Tripletes
+            //Individual Triplets Panel
             
             jLabel21.setText("Mutación Individual");
             jLabel21.setBounds(190, 20, 500, 29);
@@ -1626,6 +1676,7 @@ public class Seleccionar_Idioma {
             jLabel100.setBounds(10, 10, 500, 29);
             
             //Panel Utilidades Simples
+            //Simple Utilities Panel
             
             jLabel27.setText("Entrada");
             jLabel27.setBounds(10, 10, 500, 29);
@@ -1663,7 +1714,8 @@ public class Seleccionar_Idioma {
             jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "MDR-IP", "MDR-ITIAN", "MDR-ITINAN", "MDR-INI", "MDR-ICA" }));
             jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccionar ...", "Lista", "Tabla", "Tabla Resumen" }));
                         
-            // Panel Cálculos Finalizados
+            //Panel Cálculos Finalizados
+            //Calculations Completed Panel
             
             jLabel1.setText("Cálculos Finalizados");
             jLabel1.setBounds(50, 30, 500, 18);
@@ -1672,6 +1724,7 @@ public class Seleccionar_Idioma {
             jLabel2.setBounds(30, 10, 500, 18);
             
             //Panel Error
+            //Error Panel
             
             jLabel3.setText("Ha ocurrido un error");
             jLabel3.setBounds(50, 30, 500, 18);
@@ -1683,6 +1736,7 @@ public class Seleccionar_Idioma {
         }else{
             
             //Portada
+            //Home
             
             jTextPane1.setText("<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>EpiMolBio</strong> is a  <strong>freeware</strong> bioinformatics program that offers a multitude of functions for the study of <strong>genetic variability</strong>.</p>"
                 + "<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'>The program was developed by <strong>Roberto Reinosa Fernández</strong> in collaboration with <strong>Paloma Troyano Hernáez</strong>, under the supervision and coordination of <strong>Dra. África Holguín Fernández</strong>"
@@ -1690,15 +1744,18 @@ public class Seleccionar_Idioma {
                 +"<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>It is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</strong>. <br> The program version is 0.1</p>");
             
             //Dialog Cálculos FInalizados
-
+            //Calculations Completed Dialog
+            
             jLabel1.setText("Calculations Finished");
             
-            //INICIO
+            //Inicio
+            //Home
             
             jLabel16.setText("Analysis of genetic variability");
             jLabel16.setLocation(180, 80);
             
             //Menú Principal
+            //Main Menu
             
             jLabel10.setText(tituloDinamico);
             jLabel6.setText("HOME");
@@ -1709,6 +1766,7 @@ public class Seleccionar_Idioma {
             jLabel14.setText("TOOLS");
             
             //Panel Utilidades Polimorfismos
+            //Polymorphisms Utilities Panel
             
             jLabel380.setText("Input");
             jLabel380.setBounds(25, 10, 500, 29);
@@ -1756,6 +1814,7 @@ public class Seleccionar_Idioma {
             jComboBox31.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "Show > 75%", "Show >= 90%" }));
             
             //Panel Utilidades Polimorfismos Codones
+            //Codon Polymorphisms Utilities Panel
             
             jLabel370.setText("Input");
             jLabel370.setBounds(25, 10, 500, 29);
@@ -1787,6 +1846,7 @@ public class Seleccionar_Idioma {
             jComboBox29.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "Show 100%", "Show > 75%" }));
             
             //Panel Individual Tripletes Polimorfismos
+            //Individual Triplet Polymorphisms Panel
             
             jLabel366.setText("Individual");
             jLabel366.setBounds(250, 20, 500, 29);
@@ -1798,6 +1858,7 @@ public class Seleccionar_Idioma {
             jLabel368.setBounds(15, 10, 500, 29);
             
             //Panel Utilidades Conservación Codones
+            //Codon Conservation Utilities Panel
             
             jLabel358.setText("Input");
             jLabel358.setBounds(25, 10, 500, 29);
@@ -1829,6 +1890,7 @@ public class Seleccionar_Idioma {
             jComboBox28.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "Show 100%", "Show > 75%" }));
             
             //Panel Utilidades Conservación
+            //Conservation Utilities Panel
             
             jLabel348.setText("Input");
             jLabel348.setBounds(25, 10, 500, 29);
@@ -1860,6 +1922,7 @@ public class Seleccionar_Idioma {
             jComboBox27.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "List", "Table" }));
             
             //Panel Individual Tripletes Conservación
+            //Individual Triplet Conservation Panel
             
             jLabel344.setText("Individual");
             jLabel344.setBounds(255, 20, 500, 29);
@@ -1871,6 +1934,7 @@ public class Seleccionar_Idioma {
             jLabel346.setBounds(15, 10, 500, 29);
             
             //Panel Filtros
+            //Filters Panel
             
             jLabel342.setText("Header Filtering");
             jLabel342.setBounds(237, 20, 500, 29);
@@ -1885,6 +1949,7 @@ public class Seleccionar_Idioma {
             jLabel343.setBounds(15, 10, 500, 29);
             
             //Panel Fusionar
+            //Merge Panel
             
             jLabel339.setText("Merge Files");
             jLabel339.setBounds(257, 20, 500, 29);
@@ -1896,6 +1961,7 @@ public class Seleccionar_Idioma {
             jLabel340.setBounds(15, 10, 500, 29);
             
             //Panel Edición
+            //Editing Panel
             
             jLabel334.setText("Merge Files");
             jLabel334.setBounds(270, 20, 500, 29);
@@ -1913,6 +1979,7 @@ public class Seleccionar_Idioma {
             jLabel331.setBounds(240, 20, 500, 29);
             
             //Panel Herramientas
+            //Tools Panel
             
             jLabel329.setText("File Editing");
             jLabel329.setBounds(255, 20, 500, 29);
@@ -1929,7 +1996,8 @@ public class Seleccionar_Idioma {
             jLabel330.setText("Function Programming");
             jLabel330.setBounds(190, 20, 500, 29);
             
-             //Panel Utilidades Fusionar Secuencias
+            //Panel Utilidades Fusionar Secuencias
+            //Sequence Merging Utilities Panel
             
             jLabel320.setText("Input");
             jLabel320.setBounds(25, 10, 500, 29);
@@ -1955,6 +2023,7 @@ public class Seleccionar_Idioma {
             jLabel319.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Secuencias Únicas
+            //Unique Sequences Utilities Panel
             
             jLabel312.setText("Input");
             jLabel312.setBounds(25, 10, 500, 29);
@@ -1981,6 +2050,7 @@ public class Seleccionar_Idioma {
             jLabel311.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Contar Secuencias
+            //Sequence Counting Utilities Panel
             
             jLabel303.setText("Input");
             jLabel303.setBounds(25, 10, 500, 29);
@@ -2012,6 +2082,7 @@ public class Seleccionar_Idioma {
             jComboBox25.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "Table", "Mutated Sequences" }));
             
             //Panel Utilidades Alineador
+            //Aligner Utilities Panel
             
             jLabel295.setText("Input");
             jLabel295.setBounds(25, 10, 500, 29);
@@ -2039,6 +2110,7 @@ public class Seleccionar_Idioma {
             jLabel294.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Fisionar Archivos
+            //File Merging Utilities Panel
             
             jLabel288.setText("Input");
             jLabel288.setBounds(25, 10, 500, 29);
@@ -2064,6 +2136,7 @@ public class Seleccionar_Idioma {
             jLabel286.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Programar Funciones
+            //Function Programming Utilities Panel
             
             jLabel280.setText("Input");
             jLabel280.setBounds(25, 10, 500, 29);
@@ -2084,6 +2157,7 @@ public class Seleccionar_Idioma {
             jLabel277.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Filtrado Secuencias Parciales
+            //Partial Sequence Filtering Utilities Panel
             
             jLabel272.setText("Input");
             jLabel272.setBounds(25, 10, 500, 29);
@@ -2115,6 +2189,7 @@ public class Seleccionar_Idioma {
             jComboBox24.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "Amino acids", "Nucleotides" }));
             
             //Panel Utilidades Búsqueda Secuencias
+            //Search Sequences Utility Panel
             
             jLabel263.setText("Input");
             jLabel263.setBounds(25, 10, 500, 29);
@@ -2145,7 +2220,8 @@ public class Seleccionar_Idioma {
             
             jComboBox23.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "CSV", "FASTA" }));
             
-            //Panel Utilidades Buscar Reemplazar 
+            //Panel Utilidades Buscar Reemplazar
+            //Search and Replace Utility Panel
             
             jLabel254.setText("Input");
             jLabel254.setBounds(25, 10, 500, 29);
@@ -2179,6 +2255,7 @@ public class Seleccionar_Idioma {
             jLabel253.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Filtro Específico
+            //Specific Filter Utility Panel
             
             jLabel246.setText("Input");
             jLabel246.setBounds(25, 10, 500, 29);
@@ -2205,6 +2282,7 @@ public class Seleccionar_Idioma {
             jLabel243.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Traducción
+            //Translation Utilities Panel
             
             jLabel238.setText("Input");
             jLabel238.setBounds(25, 10, 500, 29);
@@ -2237,6 +2315,7 @@ public class Seleccionar_Idioma {
             jComboBox22.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "select ...", "Frame 1", "Frame 2", "Frame 3" }));
             
             //Panel Utilidades Filtro
+            //Filter Utility Panel
             
             jLabel228.setText("Input");
             jLabel228.setBounds(25, 10, 500, 29);
@@ -2275,6 +2354,7 @@ public class Seleccionar_Idioma {
             jLabel225.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Frecuencia Mutación
+            //Mutation Frequency Utilities Panel
             
             jLabel218.setText("Input");
             jLabel218.setBounds(25, 10, 500, 29);
@@ -2306,7 +2386,8 @@ public class Seleccionar_Idioma {
             jLabel217.setText("Cancel");
             jLabel217.setBounds(22, 10, 500, 29);
             
-            //Panel Utilidades Wu Kabat
+            //Panel Utilidades Wu-Kabat
+            //Wu-Kabat Utilities Panel
             
             jLabel212.setText("Input");
             jLabel212.setBounds(25, 10, 500, 29);
@@ -2333,6 +2414,7 @@ public class Seleccionar_Idioma {
             jLabel207.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Consensos
+            //Consensus Utilities Panel
             
             jLabel202.setText("Input");
             jLabel202.setBounds(25, 10, 500, 29);
@@ -2364,6 +2446,7 @@ public class Seleccionar_Idioma {
             jComboBox21.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "Round 1", "Successive Rounds" }));
             
             //Panel Variabilidad
+            //Variability Panel
             
             jLabel195.setText("Polymorphisms");
             jLabel195.setBounds(230, 20, 500, 29);
@@ -2381,6 +2464,7 @@ public class Seleccionar_Idioma {
             jLabel199.setBounds(210, 20, 500, 29);
             
             //Panel Utilidades Dot Plot
+            //Dot Plot Utilities Panel
             
             jLabel198.setText("< Back");
             jLabel198.setBounds(15, 10, 500, 29);
@@ -2404,6 +2488,7 @@ public class Seleccionar_Idioma {
             jLabel187.setBounds(22, 10, 500, 29);
             
             //Panel Utilidades Alineamientos Múltiples
+            //Multiple Alignments Utility Panel
             
             jLabel182.setText("Input");
             jLabel182.setBounds(25, 10, 500, 29);
@@ -2435,6 +2520,7 @@ public class Seleccionar_Idioma {
             jLabel178.setBounds(22, 10, 500, 29);
                         
             //Panel Alineamientos Dot Plot
+            //Dot Plot Alignments Panel
             
             jLabel165.setText("Multiple Alignments");
             jLabel165.setBounds(210, 20, 500, 29);
@@ -2443,6 +2529,7 @@ public class Seleccionar_Idioma {
             jLabel336.setBounds(225, 20, 500, 29);
             
             //Panel Utilidades Rastreador Flanqueantes
+            //Flanking Tracker Utility Panel
             
             jLabel157.setText("Input");
             jLabel157.setBounds(25, 10, 500, 29);
@@ -2480,6 +2567,7 @@ public class Seleccionar_Idioma {
             jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "Amino acids", "Nucleotides" }));
             
             //Panel Utilidades Rastreador Similitud
+            //Similarity Tracker Utility Panel
             
             jLabel146.setText("Input");
             jLabel146.setBounds(25, 10, 500, 29);
@@ -2522,6 +2610,7 @@ public class Seleccionar_Idioma {
             jLabel145.setBounds(22, 10, 500, 29);
                         
             //Panel Similitud Flanqueantes
+            //Flanking Similarity Panel
             
             jLabel142.setText("Similarity");
             jLabel142.setBounds(267, 20, 500, 29);
@@ -2530,6 +2619,7 @@ public class Seleccionar_Idioma {
             jLabel143.setBounds(270, 20, 500, 29);
             
             //Panel Utilidades Diseno Secuencias
+            //Utilities Design Sequences Panel
             
             jLabel130.setText("Input");
             jLabel130.setBounds(25, 10, 500, 29);
@@ -2570,6 +2660,7 @@ public class Seleccionar_Idioma {
             jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "Full Range", "Select Range" }));
             
             //Panel Utilidades Similitud Parcial
+            //Partial Similarity Utilities Panel
             
             jLabel119.setText("Input");
             jLabel119.setBounds(25, 10, 500, 29);
@@ -2608,6 +2699,7 @@ public class Seleccionar_Idioma {
             jLabel118.setBounds(22, 10, 500, 29);
                         
             //Panel Utilidades Similitud
+            //Similarity Utilities Panel
             
             jLabel110.setText("Input");
             jLabel110.setBounds(25, 10, 500, 29);
@@ -2637,6 +2729,7 @@ public class Seleccionar_Idioma {
             jLabel109.setBounds(22, 10, 500, 29);
             
             //Panel Similitud Diseño Similitud Parcial
+            //Partial Similarity Design Similarity Panel
             
             jLabel88.setText("Similarity");
             jLabel88.setBounds(270, 20, 500, 29);
@@ -2647,7 +2740,8 @@ public class Seleccionar_Idioma {
             jLabel108.setText("Search for Conserved Sequences");
             jLabel108.setBounds(150, 20, 500, 29);
             
-            //Panel Utilidades Rastreador SARS CoV 2
+            //Panel Utilidades Rastreador SARS-CoV-2
+            //SARS-CoV-2 Tracker Utilities Panel
             
             jLabel90.setText("Input");
             jLabel90.setBounds(25, 10, 500, 29);
@@ -2681,6 +2775,7 @@ public class Seleccionar_Idioma {
                 "nsp16 (2'-O-Metiltransferase)", "S (Spike)", "ORF3a", "E (Envelope)", "M (Membrane)", "ORF6", "ORF7a", "ORF7b", "ORF8", "N (Nucleocapsid)", "ORF10", "All" }));
             
             //Panel Rastreador Proteínas Virus
+            //Virus Protein Tracker Panel
             
             jLabel80.setText("Protein Tracker");
             jLabel80.setBounds(230, 20, 500, 29);
@@ -2689,6 +2784,7 @@ public class Seleccionar_Idioma {
             jLabel98.setBounds(15, 10, 500, 29);
             
             //Panel Utilidades Conservación Pol
+            //Pol Conservation Utilities Panel
             
             jLabel82.setText("Input");
             jLabel82.setBounds(25, 10, 500, 29);
@@ -2723,6 +2819,7 @@ public class Seleccionar_Idioma {
             jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "PR", "RT", "IN" }));
             
             //Panel Utilidades Otras Mutaciones Pol
+            //Pol Other Mutations Utilities Panel
             
             jLabel71.setText("Input");
             jLabel71.setBounds(25, 10, 500, 29);
@@ -2765,11 +2862,13 @@ public class Seleccionar_Idioma {
             jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "100%", "> 75%"}));
             
             //Panel VIH SARS-CoV-2
+            //HIV SARS-CoV-2 Panel
             
             jLabel78.setText("HIV");
             jLabel78.setBounds(290, 20, 500, 29);         
             
             //Panel Utilidades MDR Tripletes
+            //DRM Triplets Utilities Panel
             
             jLabel51.setText("Input");
             jLabel51.setBounds(25, 10, 500, 29);
@@ -2801,9 +2900,10 @@ public class Seleccionar_Idioma {
             jLabel50.setText("Cancel");
             jLabel50.setBounds(22, 10, 500, 29);
             
-            jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "DRM-IP", "DRM-ITIAN", "DRM-ITINAN", "DRM-INI", "DRM-CAI" }));
+            jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "DRM-PI", "DRM-NRTI", "DRM-NNRTI", "DRM-INSTI", "DRM-CAI" }));
             
             //Panel Utilidades Transmitidas
+            //Transmitted Utilities Panel
             
             jLabel35.setText("Input");
             jLabel35.setBounds(25, 10, 500, 29);
@@ -2836,6 +2936,7 @@ public class Seleccionar_Idioma {
             jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "List", "Table", "Summary Table" }));
             
             //Panel Mutaciones Polimorfismos
+            //Polymorphisms Mutations Panel
             
             jLabel19.setText("Resistance Mutations");
             jLabel19.setBounds(203, 20, 500, 29);
@@ -2850,6 +2951,7 @@ public class Seleccionar_Idioma {
             jLabel99.setBounds(15, 10, 500, 29);
             
             //Panel Simple Transmitida
+            //Simple Transmitted Panel
             
             jLabel23.setText("Acquired");
             jLabel23.setBounds(260, 20, 500,29);
@@ -2861,6 +2963,7 @@ public class Seleccionar_Idioma {
             jLabel101.setBounds(15, 10, 500, 29);
             
             //Panel Individual Tripletes
+            //Individual Triplets Panel
             
             jLabel21.setText("Individual Mutation");
             jLabel21.setBounds(195, 20, 500, 29);
@@ -2872,6 +2975,7 @@ public class Seleccionar_Idioma {
             jLabel100.setBounds(15, 10, 500, 29);
             
             //Panel Utilidades Simples
+            //Simple Utilities Panel
             
             jLabel27.setText("Input");        
             jLabel27.setBounds(25, 10, 500, 29);
@@ -2909,7 +3013,8 @@ public class Seleccionar_Idioma {
             jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "DRM-PI", "DRM-NRTI", "DRM-NNRTI", "DRM-INSTI", "DRM-CAI" }));
             jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select ...", "List", "Table", "Summary Table" }));
             
-            // Panel Cálculos Finalizados
+            //Panel Cálculos Finalizados
+            //Completed Calculations Panel
             
             jLabel1.setText("Calculations Finished");
             jLabel1.setBounds(50, 30, 500, 18);
@@ -2918,6 +3023,7 @@ public class Seleccionar_Idioma {
             jLabel2.setBounds(32, 10, 500, 18);
             
             //Panel Error
+            //Error Panel
             
             jLabel3.setText("An error has occurred");
             jLabel3.setBounds(45, 30, 500, 18);
