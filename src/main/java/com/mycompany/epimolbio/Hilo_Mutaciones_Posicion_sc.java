@@ -37,6 +37,7 @@ public class Hilo_Mutaciones_Posicion_sc implements Runnable{
     public String mutaciones;
     
     //Gestiona el hilo de la opción de subcarpetas de Mutaciones por Posición.
+    //Manages the thread for the Mutations by Position subfolder option.
     
     public Hilo_Mutaciones_Posicion_sc(String entrada, String salida, String mutaciones){
         
