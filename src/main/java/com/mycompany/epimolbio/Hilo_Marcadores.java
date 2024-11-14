@@ -37,6 +37,7 @@ public class Hilo_Marcadores implements Runnable{
     public String referencia;
     
     //Gestiona el hilo de Marcadores.
+    //Manages the Markers thread.
     
     public Hilo_Marcadores(String entrada, String salida, String referencia){
         
