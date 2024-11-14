@@ -29,10 +29,12 @@ import static com.mycompany.epimolbio.Alineamientos_Multiples_Reales.p_reales;
 public class Terminar_Hilos {
     
     //Termina con los hilos en ejecución, lanzadados desde el programa.
+    //Terminate the threads in execution, launched from the program.
     
     public static void cargarTerminarHilos(){
         
         //Termina el hilo de Similitud de Homología.
+        //Terminate the Homology Similarity thread.
         
         try{
            
@@ -45,6 +47,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Conservación Codones.
+        //Terminate the Codon Conservation thread.
         
         try{
            
@@ -57,6 +60,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Polimorfismos Codones.
+        //Terminate the Codon Polymorphisms thread.
         
         try{
            
@@ -69,6 +73,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo la tabla de Conservación Individual.
+        //Terminate the Individual Conservation table thread.
         
         try{
            
@@ -81,6 +86,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de la lista de Conservación Individual.
+        //Terminate the Individual Conservation list thread.
         
         try{
            
@@ -93,6 +99,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
        
         //Termina el hilo de Conservación Pol.
+        //Terminate the Pol Conservation thread.
         
         try{
            
@@ -107,6 +114,7 @@ public class Terminar_Hilos {
         try{
            
             //Termina el hilo de MDR Codones.
+            //Terminate the DRM Codons thread.
             
             if(Hilo_MDR_Codones.t_mdr_codones.isAlive()){
                             
@@ -117,6 +125,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Similitud Parcial.
+        //Terminate the Partial Similarity thread.
         
         try{
            
@@ -129,6 +138,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo del Rastreador por Similitud.
+        //Terminate the Similarity Tracker thread.
         
         try{
            
@@ -141,6 +151,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
             
         //Termina el hilo de Frecuencia de Mutación.
+        //Terminate the Mutation Frequency thread.
         
         try{
            
@@ -153,6 +164,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Eliminar Inserciones.
+        //Terminate the Remove Insertions thread.
         
         try{
            
@@ -165,6 +177,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Búsqueda de Secuencias Conservadas.
+        //Terminate the Search for Conserved Sequences thread.
         
         try{
            
@@ -177,6 +190,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo del Dot Plot.
+        //Terminate the Dot Plot thread.
         
         try{
            
@@ -189,6 +203,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Traducción.
+        //Terminate the Translation thread.
         
         try{
            
@@ -201,6 +216,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo del Rastreador por secuencias Flanqueantes.
+        //Terminate the Flanking Sequences Tracker thread.
         
         try{
            
@@ -219,6 +235,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de posiciones Mutadas.
+        //Terminate the Mutated Positions thread.
         
         try{
            
@@ -231,6 +248,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de la opción de subcarpetas de Posiciones Mutadas.
+        //Terminate the Mutated Positions Subfolder Option thread.
         
         try{
            
@@ -243,6 +261,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Consensos.
+        //Terminate the Consensus thread.
         
         try{
            
@@ -255,6 +274,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Fusionar Archivos.
+        //Terminate the Merge Files thread.
         
         try{
            
@@ -267,6 +287,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
        
         //Termina el hilo de Filtrado de Secuencias Parciales.
+        //Terminate the Partial Sequence Filtering thread.
         
         try{
             
@@ -279,6 +300,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Mutaciones Múltiples.
+        //Terminate the Multiple Mutations thread.
         
         try{
             
@@ -291,6 +313,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
             
         //Termina el hilo de la opción de subcarpetas de Mutaciones Múltiples.
+        //Terminate the Multiple Mutations Subfolder Option thread.
         
         try{
             
@@ -303,6 +326,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Fusionar Secuencias, funcionalidad no disponible desde el interfaz.
+        //Terminate the Merge Sequences thread, functionality not available from the interface.
         
         try{
             
@@ -315,6 +339,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Programar Funciones.
+        //Terminate the Function Programming thread.
         
         try{
             
@@ -327,6 +352,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de la tabla de Contar Secuencias.
+        //Terminate the Count Sequences table thread.
         
         try{
             
@@ -339,6 +365,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}    
         
         //Termina el hilo de Alineamientos Múltiples.
+        //Terminate the Multiple Alignments thread.
         
         try{
             
@@ -359,6 +386,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Secuencias Únicas.
+        //Terminate the Unique Sequences thread.
         
         try{
             
@@ -371,6 +399,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
               
         //Termina el hilo del Filtro Específico.
+        //Terminate the Specific Filter thread.
         
         try{
                 
@@ -383,6 +412,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Búsqueda de Secuencias.
+        //Terminate the Sequence Search thread.
         
         try{
             
@@ -395,6 +425,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Mutaciones por Posición.
+        //Terminate the Mutations by Position thread.
         
         try{
             
@@ -407,6 +438,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de la opción de subcarpetas de Mutaciones por Posición.
+        //Terminate the Mutations by Position Subfolder Option thread.
         
         try{
             
@@ -419,6 +451,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Contar Secuencias Mutadas.
+        //Terminate the Count Mutated Sequences thread.
         
         try{
             
@@ -431,6 +464,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
                
         //Termina el hilo de Coeficiente de Wu-Kabat.
+        //Terminate the Wu-Kabat Coefficient thread.
         
         try{
             
@@ -443,6 +477,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Tabla MDR.
+        //Terminate the DRM Table thread.
         
         try{
             
@@ -455,6 +490,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Lista MDR.
+        //Terminate the DRM List thread.
         
         try{
             
@@ -467,6 +503,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Tabla Resumen MDR.
+        //Terminate the DRM Summary Table thread.
         
         try{
             
@@ -479,6 +516,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Búscar y Reemplazar.
+        //Terminate the Find and Replace thread.
         
         try{
             
@@ -491,6 +529,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
        
         //Termina el hilo de Marcadores.
+        //Terminate the Markers thread.
         
         try{
             
@@ -503,6 +542,7 @@ public class Terminar_Hilos {
         }catch(Exception ex){}
         
         //Termina el hilo de Filtro por Encabezado.
+        //Terminate the Header Filter thread.
         
         try{
             
@@ -515,6 +555,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Cortar Secuencias, funcionalidad no disponible desde el interfaz.
+        //Terminate the Cut Sequences thread, functionality not available from the interface.
         
         try{
             
@@ -527,6 +568,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Eliminar Stops, funcionalidad no disponible desde el interfaz.
+        //Terminate the Remove Stops thread, functionality not available from the interface.
         
         try{
             
@@ -539,6 +581,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Rastreador Flanqueantes SARS-CoV-2 de todas las regiones.
+        //Terminate the SARS-CoV-2 Flanking Sequences Tracker thread for all regions.
         
         try{
             
@@ -551,6 +594,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de la tabla de Otras Mutaciones Pol.
+        //Terminate the Other Pol Mutations Table thread.
         
         try{
             
@@ -563,6 +607,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de la tabla resumen de Otras Mutaciones Pol.
+        //Terminate the Other Pol Mutations Summary Table thread.
         
         try{
             
@@ -575,6 +620,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
             
         //Termina el hilo de la lista de Otras Mutaciones Pol.
+        //Terminate the Other Pol Mutations List thread.
         
         try{
             
@@ -587,6 +633,7 @@ public class Terminar_Hilos {
         }catch(Exception e){}
         
         //Termina el hilo de Alineamientos Multiples con la opción de conservar inserciones.
+        //Terminate the Multiple Alignments thread with the option to retain insertions.
         
         try{
             
