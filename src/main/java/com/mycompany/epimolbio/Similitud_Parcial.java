@@ -42,6 +42,7 @@ public class Similitud_Parcial {
     public static String encabezados2[] = new String[1000000];
     
     //Busca regiones de una secuencia que tenga la similitud dada con las secuencias de un archivo .fasta
+    //Search for regions of a sequence that have the given similarity with the sequences in a .fasta file
     
     public static void cargarSimilitudParcial(String archivoEntrada, String archivoSalida, String consensoProblema, int tipo, int tamano, double similitud, int alinear, int traducir){
         
