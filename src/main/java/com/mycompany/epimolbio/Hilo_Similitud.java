@@ -39,6 +39,7 @@ public class Hilo_Similitud implements Runnable{
     public int homologiaSuperior;
     
     //Gestiona el hilo de Similitud.
+    //Manages the Similarity thread.
     
     public Hilo_Similitud(String entrada, String salida, String secuenciaProblema, int homologiaInferior, int homologiaSuperior){
         
