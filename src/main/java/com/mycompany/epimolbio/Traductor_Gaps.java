@@ -38,6 +38,9 @@ public class Traductor_Gaps {
     /*Gestiona la traducción de secuencias y la eliminación de gaps en el programa.
     Esto lo hace valiendose de las clases Traductor y Eliminacion_Gaps*/
     
+    /*Manages the sequence translation and gap removal in the program.
+    This is done using the Translator and Gap_Removal classes.*/
+    
     public static void cargarTraductorGaps(String archivo, int traducir, int eliminarGaps, int marco, String salidaArchivo, String Fichero) throws FileNotFoundException, IOException{
             
         try{
