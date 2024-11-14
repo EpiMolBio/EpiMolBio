@@ -39,6 +39,7 @@ public class Hilo_Tabla_Resumen_MDR implements Runnable{
     public int proteina;
     
     //Gestiona el hilo de la Tabla Resumen MDR.
+    //Manages the DRM Summary Table thread.
     
     public Hilo_Tabla_Resumen_MDR(String entrada, String salida, int proteina){
         
