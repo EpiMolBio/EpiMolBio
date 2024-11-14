@@ -37,6 +37,7 @@ public class Hilo_Lista_MDR implements Runnable{
     public int proteina;
     
     //Gestiona el hilo de Lista MDR.
+    //Manages the DRM List thread.
     
     public Hilo_Lista_MDR(String entrada, String salida, int proteina){
         
