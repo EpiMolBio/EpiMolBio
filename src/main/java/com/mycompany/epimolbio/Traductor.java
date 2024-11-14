@@ -30,6 +30,7 @@ import java.util.logging.Logger;
 public class Traductor {
     
     //Gestiona la traducción de secuencias por parte de EpimolBio valiendose de la clase Calculos_Frecuencias_Posicion_Codones.
+    //Manages the sequence translation by EpimolBio using the Calculos_Frecuencias_Posicion_Codones class.
     
     public static String cargarTraductor(String secuencia, int marco){
         
