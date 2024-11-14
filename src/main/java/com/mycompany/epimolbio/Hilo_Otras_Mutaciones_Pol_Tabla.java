@@ -38,6 +38,7 @@ public class Hilo_Otras_Mutaciones_Pol_Tabla implements Runnable {
     public int proteina;
     
     //Gestiona el hilo de Otras Mutaciones Pol Tabla.
+    //Manages the Other Pol Mutations Table thread.
     
     public Hilo_Otras_Mutaciones_Pol_Tabla(String entrada, String salida, int virus, int proteina){
         
