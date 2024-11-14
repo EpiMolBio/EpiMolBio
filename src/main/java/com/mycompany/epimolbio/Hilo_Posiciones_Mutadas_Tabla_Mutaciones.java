@@ -42,6 +42,7 @@ public class Hilo_Posiciones_Mutadas_Tabla_Mutaciones implements Runnable{
     public int tipoTabla;
     
     //Gestiona el hilo de Posiciones Mutadas Tabla Mutaciones.
+    //Manages the Mutated Positions Mutation Table thread.
     
     public Hilo_Posiciones_Mutadas_Tabla_Mutaciones(String archivoCarga, String archivoGuardado, String wt, double valorMinimo, boolean orden, int seleccion, String mutacionSeleccionada, int tipoTabla) throws Exception{
         
