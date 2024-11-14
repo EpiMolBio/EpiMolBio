@@ -37,6 +37,7 @@ public class Hilo_Filtro_Especifico implements Runnable{
     public String composicion;
     
     //Gestiona el hilo de Filtro Específico.
+    //Manages the Specific Filter thread.
     
     public Hilo_Filtro_Especifico(String entrada, String salida, String composicion){
         
