@@ -42,6 +42,7 @@ public class Hilo_Similitud_Parcial implements Runnable {
     public int traducir;
     
     //Gestiona el hilo de Similitud Parcial.
+    //Manages the Partial Similarity thread.
     
     public Hilo_Similitud_Parcial(String archivoEntrada, String archivoSalida, String consensoProblema, int tipo, int tamano, double similitud, int alinear, int traducir){
         
