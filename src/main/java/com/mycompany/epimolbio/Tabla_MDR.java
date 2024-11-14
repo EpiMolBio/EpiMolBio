@@ -48,6 +48,9 @@ public class Tabla_MDR {
     /*Busca las mutaciones de resistencia de las proteinas PR, RT, IN y p24 del VIH-1 y VIH-2, del archivo o archivos .fasta cargados,
     valiendose de la clase Calculos_Frecuencias_Posicion. El resultado es una tabla .html.*/
     
+    /*Search for resistance mutations in the PR, RT, IN, and p24 proteins of HIV-1 and HIV-2 from the loaded .fasta file(s),
+    using the Calculos_Frecuencias_Posicion class. The result is an .html table.*/
+    
     public static void CargarTablaMDR(String entrada, String salida, int proteina){
         
         try{
@@ -167,6 +170,7 @@ public class Tabla_MDR {
                     case 1:
                         
                         //MDR IP VIH-1
+                        //DRM PI HIV-1
                                 
                         if(idioma == 1){
                             
@@ -183,6 +187,7 @@ public class Tabla_MDR {
                     case 2:
                         
                         //MDR ITIAN VIH-1
+                        //DRM NRTI HIV-1
                                    
                         if(idioma == 1){
                             
@@ -199,6 +204,7 @@ public class Tabla_MDR {
                     case 3:
                         
                         //MDR ITINAN VIH-1
+                        //DRM NNRTI HIV-1
                         
                         if(idioma == 1){
                             
@@ -215,6 +221,7 @@ public class Tabla_MDR {
                     case 4:
                         
                         //MDR INI VIH-1
+                        //DRM INSTI HIV-1
                           
                         if(idioma == 1){
                             
@@ -231,6 +238,7 @@ public class Tabla_MDR {
                     case 5:
                         
                         //MDR IP VIH-2
+                        //DRM PI HIV-2
                                                 
                         if(idioma == 1){
                             
@@ -247,6 +255,7 @@ public class Tabla_MDR {
                     case 6:
                         
                         //MDR ITIAN VIH-2
+                        //DRM NRTI HIV-2
                                
                         if(idioma == 1){
                             
@@ -263,6 +272,7 @@ public class Tabla_MDR {
                     case 7:
                         
                         //MDR INI VIH-2
+                        //DRM INSTI HIV-2
                                                 
                         if(idioma == 1){
                             
@@ -279,6 +289,7 @@ public class Tabla_MDR {
                     case 8:
                         
                         //SDRM IP VIH-1
+                        //SDRM PI HIV-1
                                                 
                         if(idioma == 1){
                             
@@ -295,6 +306,7 @@ public class Tabla_MDR {
                     case 9:
                         
                         //SDRM ITIAN VIH-1
+                        //SDRM NRTI HIV-1
                                                 
                         if(idioma == 1){
                             
@@ -311,6 +323,7 @@ public class Tabla_MDR {
                     case 10:
                         
                         //SDRM ITINAN VIH-1
+                        //SDRM NNRTI HIV-1
                                                 
                         if(idioma == 1){
                             
@@ -327,6 +340,7 @@ public class Tabla_MDR {
                     case 11:
                         
                         //SDRM INI VIH-1
+                        //SDRM INSTI HIV-1
                                                 
                         if(idioma == 1){
                             
@@ -343,6 +357,7 @@ public class Tabla_MDR {
                     case 12:
                         
                         //MDR ICA VIH-1
+                        //DRM CAI HIV-1
                                                 
                         if(idioma == 1){
                             
