@@ -47,6 +47,9 @@ public class MDR_Codones {
     /*Genera un archivo .html con las posiciones en las que se encuentran MDR de PR, RT, IN y p24 en codones. Las mutaciones aparecen con un asterísco.
     Se utiliza la clase Calculos_Frecuencias_Posicion_Codones para realizar los calculos.*/
     
+    /*Generates an .html file with the positions of DRM in PR, RT, IN, and p24 in codons. Mutations are marked with an asterisk.
+    The Calculos_Frecuencias_Posicion_Codones class is used to perform the calculations.*/
+    
     public static void cargarMDRCodones(String archivoCarga, String archivoGuardado, int tipoMDR, String seleccionCodon) {
 
         try{
@@ -393,6 +396,9 @@ public class MDR_Codones {
                     
                     ficheroSalida2.write("<table>");
                     
+                    //IP PRINCIPALES
+                    //PI MAJOR
+                    
                     if(idioma == 1 && tipoMDR == 1 && codonSeleccionado == false){
                         
                         ficheroSalida2.write("<caption align=\"top\"><strong>MDR-"+ tipoMDREncabezado +" Principales</strong></caption>\n");
@@ -436,7 +442,8 @@ public class MDR_Codones {
                         }
                         
                         //IP ACCESORIAS
-                    
+                        //IP ACCESSORY
+                        
                         if(tipoMDR == 1 && contadorPosicion == alcanceCodonesMDR2){
                         
                             if(seleccionCodon.equals("")){
@@ -467,7 +474,8 @@ public class MDR_Codones {
                         }
                         
                         //IP OTRAS
-            
+                        //PI OTHERS
+                        
                         if(tipoMDR == 1 && contadorPosicion == alcanceCodonesMDR2 + alcanceCodonesMDR3){
                 
                             if(seleccionCodon.equals("")){
@@ -499,6 +507,7 @@ public class MDR_Codones {
                         }
                         
                         //ITIAN
+                        //NRTI
                         
                         if(idioma == 1 && tipoMDR == 2 && codonSeleccionado == false && contadorPosicion == 0){
                         
@@ -520,8 +529,9 @@ public class MDR_Codones {
                         
                         }
                     
-                        //ITIAN Otras
-                    
+                        //ITIAN OTRAS
+                        //NRTI OTHERS
+                        
                         if(tipoMDR == 2 && contadorPosicion == alcanceCodonesMDR2){
                         
                             if(seleccionCodon.equals("")){
@@ -553,6 +563,7 @@ public class MDR_Codones {
                         }
                         
                         //ITINAN
+                        //NNRTI
             
                         if(idioma == 1 && tipoMDR == 3 && codonSeleccionado == false && contadorPosicion == 0){
             
@@ -574,7 +585,8 @@ public class MDR_Codones {
                             
                         }
                 
-                        //ITINAN Otras
+                        //ITINAN OTRAS
+                        //NNRTI OTHERS
                     
                         if(tipoMDR == 3 && contadorPosicion == alcanceCodonesMDR2){
                         
@@ -606,7 +618,8 @@ public class MDR_Codones {
                         
                         }
                         
-                        //INI Principales
+                        //INI PRINCIPALES
+                        //INSTI MAJOR
                     
                         if(idioma == 1 && tipoMDR == 4 && codonSeleccionado == false && contadorPosicion == 0){
                         
@@ -628,7 +641,8 @@ public class MDR_Codones {
                         
                         }
                     
-                        //INI Accesorias
+                        //INI ACCESORIAS
+                        //INSTI ACCESSORY
                     
                         if(tipoMDR == 4 && contadorPosicion == alcanceCodonesMDR2){
                         
@@ -660,7 +674,8 @@ public class MDR_Codones {
                         
                         }
                     
-                        //INI Otras
+                        //INI OTRAS
+                        //INSTI OTHERS
                     
                         if(tipoMDR == 4 && contadorPosicion == alcanceCodonesMDR2 + alcanceCodonesMDR3){
                         
@@ -692,7 +707,8 @@ public class MDR_Codones {
                         
                         }
                         
-                        //ICA Principales
+                        //ICA PRINCIPALES
+                        //CAI MAJOR
                     
                         if(idioma == 1 && tipoMDR == 12 && codonSeleccionado == false && contadorPosicion == 0){
                         
@@ -714,7 +730,8 @@ public class MDR_Codones {
                         
                         }
                    
-                        //ICA Accesorias
+                        //ICA ACCESORIAS
+                        //CAI ACCESSORY
                     
                         if(tipoMDR == 12 && contadorPosicion == alcanceCodonesMDR2){
                         
@@ -826,6 +843,7 @@ public class MDR_Codones {
     }
     
     //Devuelve los codones posibles para un aminoácido dado.
+    //Returns the possible codons for a given amino acid.
     
     public static void retornoCodones(String mutacion) {
 	
