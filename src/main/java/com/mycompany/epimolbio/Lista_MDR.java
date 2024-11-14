@@ -44,6 +44,9 @@ public class Lista_MDR {
     /*Genera un archivo .html con las posiciones en las que se encuentran MDR de PR, RT, IN y p24. Las mutaciones aparecen con un asterísco.
     Se utiliza la clase Calculos_Frecuencias_Posicion para realizar los calculos.*/
     
+    /*Generates an .html file with the positions of DRM in PR, RT, IN, and p24. Mutations are marked with an asterisk.
+    The Calculos_Frecuencias_Posicion class is used to perform the calculations.*/
+    
     public static void cargarListaMDR(String entrada, String salida, int proteina){
         
         try{
@@ -149,6 +152,7 @@ public class Lista_MDR {
                     case 1:
                         
                         //MDR IP VIH-1
+                        //DRM PI HIV-1
                         
                         if(idioma == 1){
                             
@@ -167,6 +171,7 @@ public class Lista_MDR {
                     case 2:
                         
                         //MDR ITIAN VIH-1
+                        //DRM NRTI HIV-1
                                                 
                         if(idioma == 1){
                             
@@ -185,6 +190,7 @@ public class Lista_MDR {
                     case 3:
                         
                         //MDR ITINAN VIH-1
+                        //DRM NNRTI HIV-1
                         
                         if(idioma == 1){
                             
@@ -203,6 +209,7 @@ public class Lista_MDR {
                     case 4:
                         
                         //MDR INI VIH-1
+                        //DRM INSTI HIV-1
                                              
                         if(idioma == 1){
                             
@@ -221,7 +228,8 @@ public class Lista_MDR {
                     case 5:
                         
                         //MDR IP VIH-2
-                                                
+                        //DRM PI HIV-2     
+                        
                         if(idioma == 1){
                             
                             salidaArchivo.write(Menu_Lateral.body("Lista Mutaciones de Resistencia Adquiridas MDR-IP VIH-2", true, true, true));
@@ -239,6 +247,7 @@ public class Lista_MDR {
                     case 6:
                         
                         //MDR ITIAN VIH-2
+                        //DRM NRTI HIV-2
                                                 
                         if(idioma == 1){
                             
@@ -257,6 +266,7 @@ public class Lista_MDR {
                     case 7:
                         
                         //MDR INI VIH-2
+                        //DRM INSTI HIV-2
                                                 
                         if(idioma == 1){
                             
@@ -275,7 +285,8 @@ public class Lista_MDR {
                     case 8:
                         
                         //SDRM IP VIH-1
-                                                
+                        //SDRM PI HIV-1                    
+                        
                         if(idioma == 1){
                             
                             salidaArchivo.write(Menu_Lateral.body("Lista Mutaciones de Resistencia Transmitidas SDRM-IP", true, true, true));
@@ -293,6 +304,7 @@ public class Lista_MDR {
                     case 9:
                         
                         //SDRM ITIAN VIH-1
+                        //SDRM NRTI HIV-1
                         
                         if(idioma == 1){
                             
@@ -311,6 +323,7 @@ public class Lista_MDR {
                     case 10:
                         
                         //SDRM ITINAN VIH-1
+                        //SDRM NNRTI HIV-1
                         
                         if(idioma == 1){
                             
@@ -329,6 +342,7 @@ public class Lista_MDR {
                     case 11:
                         
                         //SDRM INI VIH-1
+                        //SDRM INSTI HIV-1
 
                         if(idioma == 1){
                             
@@ -347,7 +361,8 @@ public class Lista_MDR {
                         
                     case 12:
                         
-                        //MDR CAI VIH-1
+                        //MDR ICA VIH-1
+                        //DRM CAI HIV-1
                         
                         if(idioma == 1){
                             
@@ -532,6 +547,7 @@ public class Lista_MDR {
     }
     
     //Selecciona los títulos que correspondan según la posición y la proteína.
+    //Select the titles that correspond to the position and protein.
     
     public static String rotulos(int proteina, int i){
         
