@@ -37,6 +37,7 @@ public class Hilo_Secuencias_Unicas implements Runnable{
     public double frecuenciaMinima;
     
     //Gestiona el hilo de Secuencias Únicas.
+    //Manages the Unique Sequences thread.
     
     public Hilo_Secuencias_Unicas(String entrada, String salida, double frecuenciaMinima){
         
