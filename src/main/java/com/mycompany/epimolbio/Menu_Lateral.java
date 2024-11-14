@@ -27,6 +27,7 @@ import static com.mycompany.epimolbio.Interfaz.idioma;
 public class Menu_Lateral {
     
     //Genera el head del menú lateral de los archivos en html.
+    //Generates the head of the sidebar menu for files in html.
     
     public static String head(){
         
@@ -89,6 +90,7 @@ public class Menu_Lateral {
     }
     
     //Genera el body del menú lateral de los archivos en html según corresponda.
+    //Generates the body of the sidebar menu for files in html as appropriate.
     
     public static String body(String funcion, boolean valoresAltos, boolean valoresMedios, boolean valoresBajos){
         
