@@ -36,6 +36,7 @@ public class Hilo_Fusionar_Secuencias implements Runnable{
     public String salida;
     
     //Gestiona el hilo de Fusionar Secuencias, no disponible desde el interfaz.
+    //Manages the Merge Sequences thread, not available through the interface.
     
     public Hilo_Fusionar_Secuencias(String entrada, String salida){
         
