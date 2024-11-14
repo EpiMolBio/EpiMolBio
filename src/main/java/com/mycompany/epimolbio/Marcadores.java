@@ -38,6 +38,9 @@ public class Marcadores {
     /*Entre varios archivos .fasta selecciona las mutaciones que son exclusivas de cada archivo.
     Utiliza la clase Calculos_Frecuencias_Posicion para realizar los calculos.*/
     
+    /*Among several .fasta files, selects the mutations that are exclusive to each file.
+    The Calculos_Frecuencias_Posicion class is used to perform the calculations.*/
+    
     public static void cargarMarcadores(String entrada, String salida, String referencia){
         
         try{
