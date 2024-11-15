@@ -56,3 +56,64 @@ Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra 
 ## Licencia
 
 **EpiMolBio v0.1** está disponible bajo la licencia [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+
+# EpiMolBio v0.1 - Genetic Variability Analysis
+
+**EpiMolBio v0.1** is a comprehensive tool for bioinformatics analysis of DNA and protein sequences. With specialized functionalities, it is ideal for researchers working with viruses such as HIV and SARS-CoV-2, as well as for studies on genetic variability and homology.
+
+## Key Features
+
+### Virus
+
+#### HIV
+
+- **Resistance mutation analysis**
+- **Detection of mutations in Pol proteins**
+- **Conservation of Pol proteins**
+
+#### SARS-CoV-2
+
+- **SARS-CoV-2 protein tracking**
+
+### Variability
+
+- **Polymorphisms**: Detailed analysis of mutated positions and frequency.
+- **Conservation**: Evaluation of the degree of conservation of sequences.
+- **Consensus**: Creation of consensus sequences.
+- **Wu-Kabat Coefficient**: Analysis of susceptibility to evolutionary replacements.
+- **Mutation Frequency**: Mutation and conservation parameters.
+
+### Homology
+
+- **Similarity**: Identification of 100% similar sequences.
+- **Partial Similarity**: Search for regions with at least a given percentage of similarity between a query sequence and a pool of sequences.
+- **Search for Conserved Sequences**: Identification of conserved fragments.
+
+### Trackers
+
+- **Similarity**: Detection of similar sequences of interest relative to a reference in a pool of sequences.
+- **Flanking**: Search for proteins in larger sequences using flanking sequences.
+
+### Alignments
+
+- **Multiple Alignments**: Sequence alignments using MUSCLE.
+- **Dot Plot**: Comparative graphical representation of sequences.
+- **Delete Insertions**: Removal of insertions relative to a reference.
+
+### Tools
+
+- **File Editing**: Merging and editing `.fasta` files.
+- **Filters**: Filtering based on headers and sequence features.
+- **Translation**: Conversion of nucleotide sequences to amino acids.
+- **Count Sequences**: Counting sequences and mutated sequences.
+- **Function Programming**: Automation of tasks for complete analyses.
+
+## Documentation and Support
+
+For more information on how to use **EpiMolBio**, refer to our [Complete Documentation](https://epimolbio.com/) or contact the development team.
+
+## License
+
+**EpiMolBio v0.1** is available under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
