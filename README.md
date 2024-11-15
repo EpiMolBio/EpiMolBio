@@ -58,6 +58,10 @@ Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra 
 **EpiMolBio v0.1** está disponible bajo la licencia [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 
+---
+---
+
+
 # EpiMolBio v0.1 - Genetic Variability Analysis
 
 **EpiMolBio v0.1** is a comprehensive tool for bioinformatics analysis of DNA and protein sequences. With specialized functionalities, it is ideal for researchers working with viruses such as HIV and SARS-CoV-2, as well as for studies on genetic variability and homology.
