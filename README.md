@@ -1,6 +1,6 @@
-# EpiMolBio v0.1 - Análisis de la variabilidad genética
+# EpiMolBio v0.1.1 - Análisis de la variabilidad genética
 
-**EpiMolBio v0.1** es una herramienta integral para el análisis bioinformático de secuencias de ADN y proteínas. Con funcionalidades especializadas, es ideal para investigadores que trabajan con virus como el VIH y el SARS-CoV-2, así como para estudios de variabilidad genética y homología.
+**EpiMolBio v0.1.1** es una herramienta integral para el análisis bioinformático de secuencias de ADN y proteínas. Con funcionalidades especializadas, es ideal para investigadores que trabajan con virus como el VIH y el SARS-CoV-2, así como para estudios de variabilidad genética y homología.
 
 ## Características Principales
 
@@ -55,7 +55,7 @@ Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra 
 
 ## Licencia
 
-**EpiMolBio v0.1** está disponible bajo la licencia [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+**EpiMolBio v0.1.1** está disponible bajo la licencia [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 <br>
 
@@ -63,9 +63,9 @@ Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra 
 
 <br>
 
-# EpiMolBio v0.1 - Genetic Variability Analysis
+# EpiMolBio v0.1.1 - Genetic Variability Analysis
 
-**EpiMolBio v0.1** is a comprehensive tool for bioinformatics analysis of DNA and protein sequences. With specialized functionalities, it is ideal for researchers working with viruses such as HIV and SARS-CoV-2, as well as for studies on genetic variability and homology.
+**EpiMolBio v0.1.1** is a comprehensive tool for bioinformatics analysis of DNA and protein sequences. With specialized functionalities, it is ideal for researchers working with viruses such as HIV and SARS-CoV-2, as well as for studies on genetic variability and homology.
 
 ## Key Features
 
@@ -120,5 +120,5 @@ For more information on how to use **EpiMolBio**, refer to our [Complete Documen
 
 ## License
 
-**EpiMolBio v0.1** is available under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+**EpiMolBio v0.1.1** is available under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
