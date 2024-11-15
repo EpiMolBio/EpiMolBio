@@ -8,13 +8,13 @@
 
 #### VIH
 
-- Análisis de mutaciones de resistencia
-- Detección de mutaciones en proteínas de Pol
-- Conservación de proteínas de Pol
+- Análisis de mutaciones de resistencia.
+- Detección de mutaciones en proteínas de Pol.
+- Conservación de proteínas de Pol.
 
 #### SARS-CoV-2
 
-- Rastreo de proteínas del SARS-CoV-2
+- Rastreo de proteínas del SARS-CoV-2.
 
 ### Variabilidad
 
@@ -51,7 +51,7 @@
 
 ## Documentación y Soporte
 
-Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra [Documentación Completa](https://epimolbio.com/) o contacta con el equipo de desarrollo.
+Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra [Documentación Completa](https://epimolbio.com/wp-content/uploads/2024/03/Manual-Usuario-Espanol.pdf) o contacta con el equipo de desarrollo.
 
 ## Licencia
 
@@ -73,13 +73,13 @@ Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra 
 
 #### HIV
 
-- **Resistance mutation analysis**
-- **Detection of mutations in Pol proteins**
-- **Conservation of Pol proteins**
+- Resistance mutation analysis.
+- Detection of mutations in Pol proteins.
+- Conservation of Pol proteins.
 
 #### SARS-CoV-2
 
-- **SARS-CoV-2 protein tracking**
+- SARS-CoV-2 protein tracking.
 
 ### Variability
 
