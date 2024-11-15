@@ -57,7 +57,11 @@ Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra 
 
 **EpiMolBio v0.1** está disponible bajo la licencia [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
+<br>
+
 ---
+
+<br>
 
 # EpiMolBio v0.1 - Genetic Variability Analysis
 
