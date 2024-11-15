@@ -7,14 +7,17 @@
 ### Virus
 
 #### VIH
+
 - **Análisis de mutaciones de resistencia**
 - **Detección de mutaciones en proteínas de Pol**
 - **Conservación de proteínas de Pol**
 
 #### SARS-CoV-2
+
 - **Rastreo de proteínas del SARS-CoV-2**
 
 ### Variabilidad
+
 - **Polimorfismos**: Análisis detallado de posiciones mutadas y frecuencia.
 - **Conservación**: Evaluación del grado de conservación de secuencias.
 - **Consensos**: Creación de secuencias consenso.
@@ -22,20 +25,24 @@
 - **Frecuencia de Mutación**: Parámetros de mutación y conservación.
 
 ### Homología
+
 - **Similitud**: Identificación de secuencias 100% similares.
 - **Similitud Parcial**: Búsqueda de regiones con una similitud de al menos un porcentaje dado, entre una secuencia problema y un pool de secuencias.
 - **Búsqueda de Secuencias Conservadas**: Identificación de fragmentos conservados.
 
 ### Rastreadores
+
 - **Similitud**: Detección de secuencias de interés similares a una referencia en un pool de secuencias.
 - **Flanqueantes**: Búsqueda de proteínas en secuencias más grandes usando secuencias flanqueantes.
 
 ### Alineamientos
+
 - **Alineamientos Múltiples**: Alineamientos de secuencias usando MUSCLE.
 - **Dot Plot**: Representación gráfica comparativa de secuencias.
 - **Eliminar Inserciones**: Eliminación de inserciones respecto a una referencia.
 
 ### Herramientas
+
 - **Edición de Archivos**: Fusión y edición de archivos `.fasta`.
 - **Filtros**: Filtrado basado en encabezados y características de secuencias.
 - **Traducción**: Conversión de secuencias de nucleótidos a aminoácidos.
@@ -43,7 +50,9 @@
 - **Programar Funciones**: Automatización de tareas para realizar análisis completos.
 
 ## Documentación y Soporte
+
 Para obtener más información sobre cómo usar **EpiMolBio**, consulta nuestra [Documentación Completa](https://epimolbio.com/) o contacta con el equipo de desarrollo.
 
 ## Licencia
+
 **EpiMolBio v0.1** está disponible bajo la licencia [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
