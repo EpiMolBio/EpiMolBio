@@ -160,7 +160,7 @@ public class Interfaz extends javax.swing.JFrame {
         jTextPane1.setText("<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>EpiMolBio</strong> es un programa bioinformático <strong>freeware</strong> que dispone de multitud de funciones para el estudio de la <strong>variabilidad genética</strong>.</p>"
                 + "<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'>Programa desarrollado por <strong>Roberto Reinosa Fernández</strong> con la colaboración de <strong>Paloma Troyano Hernáez</strong>, bajo la supervisión y coordinación de la <strong>Dra. África Holguín Fernández</strong>"
                 + ", responsable del Laboratorio de Epidemiología Molecular del VIH (<strong>EpiMolVIH</strong>), Servicio de Microbiología, Instituto Ramón y Cajal de Investigación Sanitaria (<strong>IRYCIS</strong>), <strong>Hospital Ramón y Cajal de Madrid</strong>.</p>"
-                +"<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>Licencia Creative Commons Attribution-NonCommercial-NoDerivates 4.0</strong>. <br> Versión del programa 0.1</p>");
+                +"<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>Licencia Creative Commons Attribution-NonCommercial-NoDerivates 4.0</strong>. <br> Versión del programa 0.1.1</p>");
         
         jTextPane1.setCaretPosition(0);
         
@@ -508,7 +508,7 @@ public class Interfaz extends javax.swing.JFrame {
         
         setLocationRelativeTo(null);      
    
-        setTitle("EpiMolBio v.0.1");
+        setTitle("EpiMolBio v0.1.1");
         
     }
 
