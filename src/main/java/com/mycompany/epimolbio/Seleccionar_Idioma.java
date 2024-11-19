@@ -433,7 +433,7 @@ public class Seleccionar_Idioma {
             jTextPane1.setText("<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>EpiMolBio</strong> es un programa bioinformático <strong>freeware</strong> que dispone de multitud de funciones para el estudio de la <strong>variabilidad genética</strong>.</p>"
                 + "<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'>Programa desarrollado por <strong>Roberto Reinosa Fernández</strong> con la colaboración de <strong>Paloma Troyano Hernáez</strong>, bajo la supervisión y coordinación de la <strong>Dra. África Holguín Fernández</strong>"
                 + ", responsable del Laboratorio de Epidemiología Molecular del VIH (<strong>EpiMolVIH</strong>), Servicio de Microbiología, Instituto Ramón y Cajal de Investigación Sanitaria (<strong>IRYCIS</strong>), <strong>Hospital Ramón y Cajal de Madrid</strong>.</p>"
-                +"<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>Licencia Creative Commons Attribution-NonCommercial-NoDerivates 4.0</strong>. <br> Versión del programa 0.1</p>");
+                +"<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>Licencia Creative Commons Attribution-NonCommercial-NoDerivates 4.0</strong>. <br> Versión del programa 0.1.1</p>");
         
             
             //Dialog Cálculos Finalizados
@@ -1741,7 +1741,7 @@ public class Seleccionar_Idioma {
             jTextPane1.setText("<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>EpiMolBio</strong> is a  <strong>freeware</strong> bioinformatics program that offers a multitude of functions for the study of <strong>genetic variability</strong>.</p>"
                 + "<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'>The program was developed by <strong>Roberto Reinosa Fernández</strong> in collaboration with <strong>Paloma Troyano Hernáez</strong>, under the supervision and coordination of <strong>Dra. África Holguín Fernández</strong>"
                 + ", head of the Molecular Epidemiology Laboratory of HIV (<strong>EpiMolVIH</strong>), at the Microbiology Department, Ramón y Cajal Hospital of Health Research (<strong>IRYCIS</strong>), <strong>Ramón y Cajal Hospital in Madrid</strong>.</p>"
-                +"<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>It is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</strong>. <br> The program version is 0.1</p>");
+                +"<p style = 'text-align:center; font-size:103%; margin-top: 8px; margin-left:5px; margin-right:5px;'><strong>It is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</strong>. <br> The program version is 0.1.1</p>");
             
             //Dialog Cálculos FInalizados
             //Calculations Completed Dialog
